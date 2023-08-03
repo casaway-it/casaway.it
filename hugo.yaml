@@ -50,9 +50,11 @@ languages:
             rel: external
           url: https://www.airbnb.com/rooms/867463352814667389
         - name: Apartments
+          url: /
           weight: 1
         - name: Vimercate, City Center
           weight: 1
+          url: /
           parent: Apartments
         - name: EN
           weight: 99
@@ -128,9 +130,11 @@ languages:
           url: https://www.airbnb.com/rooms/867463352814667389
         - name: Appartamenti
           weight: 1
+          url: /
         - name: Vimercate, Centro Storico
           weight: 1
           parent: Appartamenti
+          url: /
         - name: EN
           weight: 99
           url: /en
