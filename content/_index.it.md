@@ -1,5 +1,5 @@
 ---
-title: Apartments & Vacation Houses
+title: Appartamenti & Casa Vacanze
 pricing:
     title: Tariffe
     subtitle: Soggiorni brevi, settimanali o mensili

@@ -54,6 +54,12 @@ languages:
         - name: Vimercate, City Center
           weight: 1
           parent: Apartments
+        - name: EN
+          weight: 99
+          url: /en
+        - name: IT
+          weight: 98
+          url: /it
     weight: 1
     title: "Casaway. Your Home, Away!"
     languageName: English
@@ -125,6 +131,12 @@ languages:
         - name: Vimercate, Centro Storico
           weight: 1
           parent: Appartamenti
+        - name: EN
+          weight: 99
+          url: /en
+        - name: IT
+          weight: 98
+          url: /it
     weight: 2
     title: Casaway. Your Home, Away!
     languageName: Italiano
