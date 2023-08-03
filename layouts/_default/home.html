@@ -32,7 +32,7 @@
 
               {{ range $index, $element := $images }}
                 <div class="carousel-item{{ if eq $index 0}} active{{ end }}" data-bs-interval="3000">
-                  <img src='{{ ($element.Fill "1024x700 TopLeft").RelPermalink }}' class="d-block w-100" alt="Image {{ $index }}" />
+                  <img src='{{ ($element.Fill "1024x700 TopLeft webp").RelPermalink }}' class="d-block w-100" alt="Image {{ $index }}" />
                 </div>
               {{ end }}
             </div>
@@ -79,7 +79,7 @@
 
           <div class="col-lg-5 col-md-12 thmv-welimg-box">
             <div class="thmv-welcome-img">
-              <a href="{{ .Permalink }}"><img src='{{ ((index $images 0).Fill "400x500 BottomLeft").RelPermalink }}' alt="{{ .Title }}" /></a>
+              <a href="{{ .Permalink }}"><img src='{{ ((index $images 0).Fill "400x500 BottomLeft webp").RelPermalink }}' alt="{{ .Title }}" /></a>
             </div>
           </div>
 
@@ -111,14 +111,14 @@
           <div class="col-md-6">
             <div class="thmv-img-box">
               <a data-fancybox="gallery" href="{{ (index $images 1).RelPermalink }}">
-                <img src='{{ ((index $images 1).Resize "x400").RelPermalink }}' alt="" />
+                <img src='{{ ((index $images 1).Resize "x400 webp").RelPermalink }}' alt="" />
               </a>
             </div>
           </div>
           <div class="col-md-6">
             <div class="thmv-img-box">
               <a data-fancybox="gallery" href="{{ (index $images 2).RelPermalink }}">
-                <img src='{{ ((index $images 2).Resize "x400").RelPermalink }}' alt="" />
+                <img src='{{ ((index $images 2).Resize "x400 webp").RelPermalink }}' alt="" />
               </a>
             </div>
           </div>
@@ -127,21 +127,21 @@
           <div class="col-md-4 col-6">
             <div class="thmv-img-box">
               <a data-fancybox="gallery" href="{{ (index $images 3).RelPermalink }}">
-                <img src='{{ ((index $images 3).Resize "x400").RelPermalink }}' alt="" />
+                <img src='{{ ((index $images 3).Resize "x400 webp").RelPermalink }}' alt="" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-6">
             <div class="thmv-img-box">
               <a data-fancybox="gallery" href="{{ (index $images 4).RelPermalink }}">
-                <img src='{{ ((index $images 4).Resize "x400").RelPermalink }}' alt="" />
+                <img src='{{ ((index $images 4).Resize "x400 webp").RelPermalink }}' alt="" />
               </a>
             </div>
           </div>
           <div class="col-md-4 d-none d-md-inline-block">
             <div class="thmv-img-box">
               <a data-fancybox="gallery" href="{{ (index $images 5).RelPermalink }}">
-                <img src='{{ ((index $images 5).Resize "x400").RelPermalink }}' alt="" />
+                <img src='{{ ((index $images 5).Resize "x400 webp").RelPermalink }}' alt="" />
               </a>
             </div>
           </div>
