@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8" />
+
+    {{ if .IsHome }}
+    <!-- Site verification -->
+    {{ partial "site-verification" . }}
+    {{ end }}
+
+    {{ partial "meta" . }}
+
+    {{ partial "favicons" . }}
+
+    {{ partial "fonts" }}
+
+    <title>
+      {{- if .IsHome -}}
+        Home | {{ .Site.Title }}
+      {{- else if .Params.hide_site_title -}}
+        {{ .Page.Title }}
+      {{- else if .Page.Title -}}
+        {{ .Page.Title }} | {{ .Site.Title }}
+      {{- else -}}
+        {{ .Site.Title }}
+      {{- end -}}
+    </title>
+
+    {{ partial "stylesheets" . }}
+  </head>
+
+  {{ block "body" . }}
+  <body>
+    {{ partial "top-nav" }}
+
+    {{ block "main" . }} {{ end }}
+
+    {{ partial "footer" . }}
+
+    {{ partial "scripts" . }}
+  </body>
+  {{ end }}
+</html>

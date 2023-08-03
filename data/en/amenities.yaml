@@ -1,0 +1,54 @@
+services:
+    - icon: fas fa-home
+      title: Entire place
+      text: Whether you travel for business or leisure, you'll have the entire place to yourself.
+    - icon: fas fa-pump-medical
+      title: Enhanced Clean
+      text: >-
+        We are committed to <a
+        href="https://www.airbnb.com/resources/hosting-homes/a/getting-started-with-the-5-step-enhanced-cleaning-process-186"
+        >AirBnb's 5-step enhanced cleaning process</a >. We clean between each
+        guest and offer on-demand cleaning service.
+    - icon: fas fa-wifi
+      title: Free Wi-Fi
+      text: All our units feature free Wi-Fi for our guests.
+    - icon: fas fa-snowflake
+      title: Air conditioning
+      text: The units in Vimercate and Oreno come with air conditioning.
+    - icon: fas fa-key
+      title: Self check-in
+      text: Check yourself in with ease, or meet us to grab the keys!
+      
+amenities:
+    - icon: bi-snow
+      text: Air conditioning and heating
+    - icon: bi-tv
+      text: HD TV (apartments only)
+    - icon: bi-wifi
+      text: Free Wifi
+    - icon: fa-solid fa-person-swimming
+      text: Pool (vacation house only)
+    - icon: fa-solid fa-kitchen-set
+      text: Kitchen
+    - icon: fa-solid fa-pizza-slice
+      text: Cooking basics, dishes, and silverware
+    - icon: fa-solid fa-mug-hot
+      text: Coffee makers
+    - icon: fa-solid fa-chair
+      text: Dining table
+    - icon: fa-solid fa-fire
+      text: Induction stove, oven and microwave
+    - icon: fa-solid fa-ice-cream
+      text: Refrigerator and freezer
+    - icon: fa-solid fa-soap
+      text: Washer (dryer in 3bd apt. only)
+    - icon: fa-solid fa-bed
+      text: Bed linens
+    - icon: fa-solid fa-droplet
+      text: Drying rack and clothing storage
+    - icon: fa-solid fa-elevator
+      text: Elevator
+    - icon: fa-solid fa-square-parking
+      text: Free street parking
+    - icon: fa-solid fa-warehouse
+      text: Garage (in 3bd apt. only)

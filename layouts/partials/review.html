@@ -1,0 +1,21 @@
+<!-- Review / -->
+<div>
+  <div class="thmv-testimonial-box">
+    <div class="thmv-testimonial-header d-flex align-items-center">
+      <div class="thmv-user-info">
+        <h4>{{ .guest }}</h4>
+        <ul>
+            {{ range seq .stars }}
+                <li><i class="fas fa-star"></i></li>
+            {{ end }}
+        </ul>
+      </div>
+    </div>
+    <hr class="thmv-separator" />
+    <div class="thmv-testimonial-body">
+      <h3>{{ .place }}</h3>
+      <p>"{{ .text }}"</p>
+    </div>
+  </div>
+</div>
+<!-- / Review -->

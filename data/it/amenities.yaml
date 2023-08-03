@@ -1,0 +1,54 @@
+services:
+    - icon: fas fa-home
+      title: Intera proprietà
+      text: Che tu stia viaggiando per lavoro o per vacanza, avrai l'intero spazio tutto per te.
+    - icon: fas fa-pump-medical
+      title: Pulizia Profonda
+      text: >-
+        Seguiamo la <a
+        href="https://www.airbnb.com/resources/hosting-homes/a/getting-started-with-the-5-step-enhanced-cleaning-process-186"
+        >procedura avanzata di pulizia in 5 fasi consigliata da AirBnb</a >. Puliamo dopo ogni
+        check-out e, a richiesta, durante il soggiorno.
+    - icon: fas fa-wifi
+      title: Wi-Fi gratuito
+      text: Tutti i nostri alloggi dispongono di connessione Internet veloce.
+    - icon: fas fa-snowflake
+      title: Aria condizionata
+      text: In tutti gli appartamenti, d'estate avrai aria fresca!
+    - icon: fas fa-key
+      title: Self check-in
+      text: Potrai effettuare il check-in in totale autonomia o farti aiutare da noi!
+
+amenities:
+    - icon: bi-snow
+      text: Aria condizionata e riscaldamento
+    - icon: bi-tv
+      text: HD TV (solo appartamenti)
+    - icon: bi-wifi
+      text: Wifi gratuito
+    - icon: fa-solid fa-person-swimming
+      text: Piscina (casa vacanze)
+    - icon: fa-solid fa-kitchen-set
+      text: Cucina
+    - icon: fa-solid fa-pizza-slice
+      text: Utensili da cucina, piatti, posate
+    - icon: fa-solid fa-mug-hot
+      text: Caffettiera
+    - icon: fa-solid fa-chair
+      text: Tavolo da pranzo
+    - icon: fa-solid fa-fire
+      text: Piano a induzione, forno, microonde
+    - icon: fa-solid fa-ice-cream
+      text: Frigorifero e freezer
+    - icon: fa-solid fa-soap
+      text: Lavatrice
+    - icon: fa-solid fa-bed
+      text: Lenzuola
+    - icon: fa-solid fa-droplet
+      text: Stendino e armadi
+    - icon: fa-solid fa-elevator
+      text: Ascensore
+    - icon: fa-solid fa-square-parking
+      text: Parcheggio gratuito
+    - icon: fa-solid fa-warehouse
+      text: Garage

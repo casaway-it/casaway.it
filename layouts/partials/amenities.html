@@ -1,0 +1,15 @@
+<div class="col-lg-6 col-md-12">
+  <dl class="row">
+    {{ if eq $.Site.Language.Lang "en" }}
+        {{ range $.Site.Data.en.amenities.amenities }}
+            <dt class="col-1"><i class="{{ .icon }}"></i></dt>
+            <dd class="col-11">{{ .text }}</dd>
+        {{ end }}
+    {{ else }}
+        {{ range $.Site.Data.it.amenities.amenities }}
+            <dt class="col-1"><i class="{{ .icon }}"></i></dt>
+            <dd class="col-11">{{ .text }}</dd>
+        {{ end }}
+    {{ end }}
+  </dl>
+</div>

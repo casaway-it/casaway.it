@@ -1,0 +1,37 @@
+{{- $page := .page }} {{- $menuID := .menuID }}
+
+<div class="thmv-top-nav">
+  <header id="navbar_top" class="thmv-navbar-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav id="cssmenu" class="thmv-top-navbar">
+            <div class="thmv-logo">
+              <a href="/"><img src="{{ site.Params.logo }}" alt="Casaway" /></a>
+            </div>
+            <div id="head-mobile"></div>
+
+            <div class="thmv-nav-menu ms-auto">
+              <div class="button"></div>
+              {{ partial "inline/top-menu.html" (dict "menuID" "main" "page" .) }}
+
+              <div class="d-flex thmv-right-menu">
+                <ul class="thmv-social">
+                  <li>
+                    <a href="{{ site.Params.phone.link }}"><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                  <li>
+                    <a href="{{ site.Params.airbnb }}"><i class="fab fa-airbnb"></i></a>
+                  </li>
+                  <li>
+                    <a href="mailto:{{ site.Params.email }}"><i class="fa-solid fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>

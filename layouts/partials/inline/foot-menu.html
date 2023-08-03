@@ -1,0 +1,27 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+{{- $menuClass := .menuClass }}
+{{- $menuTitle := .menuTitle }}
+
+{{- with index site.Menus $menuID }}
+    <ul>
+        <li><h6>{{ T $menuTitle }}</h6></li>
+        {{- partial "inline/menu/foot-walk.html" (dict "page" $page "menuEntries" .) }}
+    </ul>
+{{- end }}
+
+{{- define "partials/inline/menu/foot-walk.html" }}
+  {{- $page := .page }}
+  {{- range sort .menuEntries "Weight" }}
+    {{- $attrs := dict "href" .URL }}
+    <li>
+      <a
+        {{- range $k, $v := $attrs }}
+          {{- with $v }}
+            {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+          {{- end }}
+        {{- end -}}
+      >{{ or .Name | safeHTML }}</a>
+    </li>
+  {{- end }}
+{{- end }}

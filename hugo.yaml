@@ -1,0 +1,147 @@
+baseURL: https://casaway.it/
+defaultContentLanguage: en
+enableMissingTranslationPlaceholders: true
+languages:
+  en:
+    menu:
+      footer_lodgings:
+        - name: Large Studio Apartment
+          weight: 1
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Studio Apartment
+          weight: 2
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/928102206650245677
+        - name: San Francesco Apartment, Old Town Oreno
+          weight: 3
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Langhe Vacation House
+          weight: 4
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/867463352814667389
+      main:
+        - name: Large Studio Apartment
+          weight: 1
+          parent: Vimercate, City Center
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Studio Apartment
+          weight: 2
+          parent: Vimercate, City Center
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/928102206650245677
+        - name: San Francesco Apartment, Old Town Oreno
+          weight: 3
+          parent: Apartments
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Langhe Vacation House
+          weight: 9
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/867463352814667389
+        - name: Apartments
+          weight: 1
+        - name: Vimercate, City Center
+          weight: 1
+          parent: Apartments
+    weight: 1
+    title: "Casaway. Your Home, Away!"
+    languageName: English
+    params:
+      name: Casaway
+      motto: Your Home, Away!
+      subtitle: "Apartments & Vacation Houses"
+      logo: /img/logo.png
+      sitename: Casaway
+      description: >-
+        Comfortable, modern apartments in Vimercate and Oreno city center, a quiet but
+        strategic spot close to Milano, Monza, Lecco, Bergamo. And a cozy vacation
+        house with pool in the heart of Langhe, Piemonte. We make you feel at home,
+        wether you're traveling for business or leisure!
+      phone:
+        link: https://wa.me/message/R2AKZF4C64OZL1
+        text: +39 039 6360500 (WhatsApp only)
+      email: info@casaway.it
+      airbnb: https://www.airbnb.com/users/show/181969055
+  it:
+    menu:
+      footer_lodgings:
+        - name: Ampio monolocale
+          weight: 1
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Monolocale
+          weight: 2
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/928102206650245677
+        - name: Appartamento San Francesco
+          weight: 3
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Casa vacanze in Langa
+          weight: 4
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/867463352814667389
+      main:
+        - name: Ampio monolocale
+          weight: 1
+          parent: Vimercate, Centro Storico
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Monolocale
+          weight: 2
+          parent: Vimercate, Centro Storico
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/928102206650245677
+        - name: Appartamento San Francesco, Centro Storico Oreno
+          weight: 3
+          parent: Appartamenti
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/932305272655013426
+        - name: Casa vacanze in Langa
+          weight: 9
+          params:
+            rel: external
+          url: https://www.airbnb.com/rooms/867463352814667389
+        - name: Appartamenti
+          weight: 1
+        - name: Vimercate, Centro Storico
+          weight: 1
+          parent: Appartamenti
+    weight: 2
+    title: Casaway. Your Home, Away!
+    languageName: Italiano
+    params:
+      name: Casaway
+      motto: Your Home, Away!
+      subtitle: Appartamenti e case vacanza
+      logo: /img/logo.png
+      sitename: Casaway
+      description: >-
+        Alloggi moderni e confortevoli nel centro storico di Vimercate e Oreno,
+        in una posizione tranquilla e strategica, vicino a Milano, Monza, Lecco,
+        Bergamo. E una casa vacanze con piscina, nel cuore dell'Alta Langa
+        Piemontese. Ti faremo sentire a casa, sia che tu stia viaggiando per
+        lavoro che per piacere!
+      phone:
+        link: https://wa.me/message/R2AKZF4C64OZL1
+        text: +39 039 6360500 (solo WhatsApp)
+      email: info@casaway.it
+      airbnb: https://www.airbnb.com/users/show/181969055

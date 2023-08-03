@@ -1,0 +1,38 @@
+<footer>
+
+  <section class="thmv-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 thmv-foot-wedget">
+          {{ partial "inline/foot-menu.html" (dict "menuID" "footer_lodgings" "page" . "menuTitle" "our_units") }}
+        </div>
+
+        <div class="col-lg-4 col-md-4 thmv-foot-wedget">
+        </div>
+
+        <div
+          class="col-lg-4 col-md-12 thmv-foot-wedget"
+        >
+          <ul>
+            <li><h6>{{ T "contact_us" }}</h6></li>
+            <li>
+              <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+            </li>
+            <li>
+              <a href="{{ .Site.Params.phone.link }}">{{ .Site.Params.phone.text }}</a>
+            </li>
+            <li>
+              <address>Vimercate, {{ T "italy" }}</address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="thmv-footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+      </div>
+    </div>
+  </section>
+</footer>

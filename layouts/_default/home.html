@@ -1,0 +1,255 @@
+{{ define "main" }}
+<main class="thmv-home-2">
+  <!-- header-section start -->
+  <section class="thmv-header-sec">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 col-md-12 px-0">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+              {{ $images := slice }}
+              {{ $gIndex := 0 }}
+              {{ range where .Pages "Section" "lodgings" }}
+                {{ range .Pages }}
+                  {{ if .IsSection }}
+                    {{ range .Pages }}
+                      {{ range $index, $element := .Resources.ByType "image" }}
+                        {{ if lt $index 3 }}
+                          {{ $images = $images | append $element }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  {{ else }}
+                    {{ range $index, $element := .Resources.ByType "image" }}
+                        {{ if lt $index 3 }}
+                          {{ $images = $images | append $element }}
+                        {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+
+              {{ range $index, $element := $images }}
+                <div class="carousel-item{{ if eq $index 0}} active{{ end }}" data-bs-interval="3000">
+                  <img src='{{ ($element.Fill "1024x700 TopLeft").RelPermalink }}' class="d-block w-100" alt="Image {{ $index }}" />
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 thmv-wel-col">
+          <div class="thmv-wel-text">
+            <h1 class="thmv-wel-title thmv-br-none">
+              {{ .Title }}
+            </h1>
+            {{ .Content }}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- header-section end -->
+
+  {{ range where .Pages "Section" "lodgings" }}
+    <!-- welcome section start -->
+    {{ range .Pages }}
+      {{ $images := slice }}
+      {{ $pages := slice }}
+
+      {{ if .IsSection }}
+        {{ range .Pages }}
+          {{ $pages = $pages | append . }}
+          {{ range $index, $element := .Resources.ByType "image" }}
+            {{ if lt $index 3 }}
+              {{ $images = $images | append $element }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ $images = .Resources.ByType "image" }}
+        {{ $pages = $pages | append . }}
+      {{ end }}
+
+    <section class="thmv-welcome-sec">
+      <div class="container">
+        <div class="row thmv-col-reverse">
+
+          <div class="col-lg-5 col-md-12 thmv-welimg-box">
+            <div class="thmv-welcome-img">
+              <a href="{{ .Permalink }}"><img src='{{ ((index $images 0).Fill "400x500 BottomLeft").RelPermalink }}' alt="{{ .Title }}" /></a>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-12 thmv-welcome-info">
+            <div class="thmv-welcome-box">
+              <div class="thmv-pills-blok"><p>{{ .Params.location }}</p></div>
+              <h2>{{ .Params.subtitle }}</h2>
+                {{ .Content }}
+                <br />
+                {{ range $pages }}
+                  <p>
+                    <a target="_blank" class="btn-full-filled" href="{{ .Params.airbnb }}">
+                      <i class="fab fa-airbnb"></i>&nbsp;{{ T "book_now" }} - {{ .LinkTitle }} &raquo;
+                    </a>
+                  </p>
+                {{ end }}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- welcome section end -->
+
+    <!-- photo gallery section start  -->
+    <div class="thmv-gallery-sec">
+      <div class="container">
+        <div class="row mb-md-4">
+          <div class="col-md-6">
+            <div class="thmv-img-box">
+              <a data-fancybox="gallery" href="{{ (index $images 1).RelPermalink }}">
+                <img src='{{ ((index $images 1).Resize "x400").RelPermalink }}' alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="thmv-img-box">
+              <a data-fancybox="gallery" href="{{ (index $images 2).RelPermalink }}">
+                <img src='{{ ((index $images 2).Resize "x400").RelPermalink }}' alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row thmv-mob-img-box">
+          <div class="col-md-4 col-6">
+            <div class="thmv-img-box">
+              <a data-fancybox="gallery" href="{{ (index $images 3).RelPermalink }}">
+                <img src='{{ ((index $images 3).Resize "x400").RelPermalink }}' alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="thmv-img-box">
+              <a data-fancybox="gallery" href="{{ (index $images 4).RelPermalink }}">
+                <img src='{{ ((index $images 4).Resize "x400").RelPermalink }}' alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-inline-block">
+            <div class="thmv-img-box">
+              <a data-fancybox="gallery" href="{{ (index $images 5).RelPermalink }}">
+                <img src='{{ ((index $images 5).Resize "x400").RelPermalink }}' alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center">
+          <br />
+          {{ range $pages }}
+              <a target="_blank" class="btn btn-secondary" href="{{ .Params.airbnb }}">
+                <i class="fa-regular fa-images"></i>&nbsp;{{ .LinkTitle }} &raquo;
+              </a>
+          {{ end }}
+        </p>
+      </div>
+    </div>
+    <!-- photo gallery section end  -->
+    {{ end }}
+  {{ end }}
+
+  <!-- floor plan section start -->
+  <section class="thmv-floor-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="thmv-welcome-box">
+            <h2>{{ T "modern_stays" }}</h2>
+          </div>
+          <div class="thmvfloor-list-icon">
+            <ul>
+
+              {{ if eq $.Site.Language.Lang "en" }}
+                {{ range $.Site.Data.en.amenities.services }}
+                  {{ partial "service" . }}
+                {{ end }}
+              {{ else }}
+                {{ range $.Site.Data.it.amenities.services }}
+                  {{ partial "service" . }}
+                {{ end }}
+              {{ end }}
+
+            </ul>
+          </div>
+        </div>
+
+        {{ partial "amenities" . }}
+
+      </div>
+    </div>
+  </section>
+  <!-- floor plan section end -->
+  <!-- people say section start -->
+  <section class="thmv-testimonial-sec">
+    <div class="container-fluid thmv-quote-icon">
+      <div class="row">
+        <div class="container thmv-quote-img">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid thmv-testi">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <div class="thmv-welcome-box">
+              <div class="thmv-pills-blok"><p>Reviews</p></div>
+              <h2>People say...</h2>
+              <p>Here are what our guests said about their stays with us!</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="slick-testimonial-slider slider">
+
+              {{ if eq $.Site.Language.Lang "en" }}
+                {{ range $.Site.Data.en.reviews.list }}
+                  {{ partial "review" . }}
+                {{ end }}
+              {{ else }}
+                {{ range $.Site.Data.it.reviews.list }}
+                  {{ partial "review" . }}
+                {{ end }}
+              {{ end }}
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- people say section end -->
+  <!-- unique offer section start -->
+  <section class="thmv-uniq-offer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 px-0 px-lg-3">
+          <div class="thmv-uniq-box">
+            <div class="thmv-welcome-box">
+              <div class="thmv-pills-blok"><p>{{ .Params.pricing.title }}</p></div>
+              <h2>{{ .Params.pricing.subtitle }}</h2>
+              <p>{{ .Params.pricing.text | markdownify | safeHTML }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- unique offer section end -->
+  <!-- map section start -->
+  {{ partial "gmap" . }}
+  <!-- map section end -->
+</main>
+{{ end }}

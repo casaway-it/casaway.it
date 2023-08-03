@@ -1,0 +1,63 @@
+list:
+    - guest: Claus, Germania (AirBnB)
+      stars: 5
+      place: Ampio Monolocale in Centro Storico (AirBnB)
+      text: >-
+          Very nice and loving hosts! The very clean and really nicely
+          equipped apartment is in the center. So you are quickly in the
+          center of the town in the evening and find connection to small bars
+          or restaurants. You can also get insider tips from the hosts, where
+          you can find the best pizza, etc. A highly recommended place to
+          stay.
+
+    - guest: Jelmer, Paesi Bassi (AirBnB)
+      stars: 5
+      place: Casa Vacanze Langhe
+      text: >-
+          Casa molto accogliente e deliziosa in una bella posizione collinare.
+          La vista dallle finestre e il giardino sono molto belli. La casa
+          stessa è piacevole, un bel giardino circostante. La vasca
+          idromassaggio è un bel vantaggio. Federico è un host molto gentile e
+          sempre super veloce nel rispondere alle domande. Siamo stati
+          benissimo con la nostra famiglia di 5 persone (bambini di 1, 10 e 12
+          anni). Grazie Federico!
+
+    - guest: Magda, Italia (Booking.com)
+      stars: 5
+      place: Casa Vacanze Langhe
+      text: >-
+          Ci è piaciuto molto il giardino esterno con una vista meravigliosa,
+          il silenzio e la natura circostanti. La casa è molto bella con tutto
+          ciò di cui avevamo bisogno, ed è spaziosa. Pulizia impeccabile.
+          Veloce connessione Wifi. Ottima posizione per visitare le Langhe.
+          Federico è stato super gentile e accogliente, ci ha accompagnato
+          durante il ns soggiorno e rispettato ogni nostra richiesta.
+  
+    - guest: Linon, Francia (AirBnB)
+      stars: 5
+      place: Ampio Monolocale in Centro Storico (AirBnB)
+      text: >-
+          Come nelle foto, l'appartamento è ben posizionato e facile da
+          trovare.  Federico è un host eccezionale, molto attento,
+          disponibile, con ottimi consigli! Siamo stati lì per il Gran Premio
+          di F1 e siamo stati molto contenti di tutto. Grazie ancora Federico,
+          se verremo tornati in Italia ci rivedremo!
+
+    - guest: Giorgio, Italia (AirBnB)
+      stars: 5
+      place: Ampio Monolocale in Centro Storico (AirBnB)
+      text: >-
+          Grazioso monolocale, piccolino ma molto ben arredato. Comodo in
+          quanto situato in pieno centro di Vimercate, ha tutte le comodità
+          necessarie per un soggiorno confortevole. Tranquillo, silenzioso,
+          proprietario molto gentile e disponibile.
+
+    - guest: Daniele, Italia (AirBnB)
+      stars: 5
+      place: Ampio Monolocale in Centro Storico (AirBnB)
+      text: >-
+          L’appartamento è splendido e pulitissimo con tutto quello che serve
+          organizzato in modo intelligente in poco spazio. Ho trascorso due
+          mesi in questo appartamento e Federico è sempre stato molto
+          disponibile e attento senza essere invadente. L’appartamento e
+          centralissimo in uno stabile signorile e comodo per la tangenziale.
