@@ -1,5 +1,5 @@
 ---
-title: Appartamenti & Casa Vacanze
+title: Appartamenti & Case Vacanza
 pricing:
     title: Tariffe
     subtitle: Soggiorni brevi, settimanali o mensili
@@ -11,6 +11,9 @@ pricing:
       
       Utilizzate il link di prenotazione per sapere esattamente la tariffa
       per il periodo di riferimento.
+
+
+      **CIR:** 00422100003, 108050-CNI-00007, 108050-CNI-00008, 108050-CNI-00009
 ---
 
 Alloggi moderni e confortevoli nel centro storico di Vimercate e Oreno,

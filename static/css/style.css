@@ -1697,6 +1697,9 @@ Created by Bellevue Theme
             background:#141513;
             padding:200px 0px 0px;
         }
+        footer p {
+            color: #ffffff;
+        }
         footer .thmv-footer{
             padding-bottom: 50px;
         }
@@ -1736,6 +1739,7 @@ Created by Bellevue Theme
             padding:15px 0px;
         }
         .thmv-footer-bottom{
+            font-size: 16px;
             color:#ffffff;
         }
         .thmv-get-in-touch,

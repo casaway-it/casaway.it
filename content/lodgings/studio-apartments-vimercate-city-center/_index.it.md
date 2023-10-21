@@ -13,3 +13,5 @@ Lecco, Bergamo e vicini alle principali autovie del nord Italia.
 
 Gli appartamenti sono dotati di cucina, aria condizionata, Wi-Fi veloce, e tutte
 le dotazioni di una moderna camera d'albergo.
+
+**CIR:** 108050-CNI-00008, 108050-CNI-00009

@@ -65,6 +65,7 @@ languages:
     weight: 1
     title: "Casaway. Your Home, Away!"
     languageName: English
+    disclaimer: Lodgings managed by individuals as authorized by the local regulations.
     params:
       name: Casaway
       motto: Your Home, Away!
@@ -144,6 +145,7 @@ languages:
     weight: 2
     title: Casaway. Your Home, Away!
     languageName: Italiano
+    disclaimer: Alloggi gestiti da persone fisiche in modalità non imporenditoriale, registrati presso i rispettivi registri comunali, provinciali e regionali.
     params:
       name: Casaway
       motto: Your Home, Away!

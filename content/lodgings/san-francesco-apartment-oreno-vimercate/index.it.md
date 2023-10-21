@@ -15,3 +15,5 @@ da letto, salone, cucina, garage e area di lavoro con doppia scrivania.
 Questo alloggio è pronto per ospitare gruppi di ospiti o una famiglia ed è
 vicino alle principali arterie del nord Italia, a poche decine di minuti da
 Milano, Monza, Lecco, Bergamo.
+
+**CIR:** 108050-CNI-00007

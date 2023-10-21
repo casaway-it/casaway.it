@@ -13,3 +13,5 @@ nearby the main highways of the Northern Italy region.
 
 The apartments feature air-conditioning, high-speed Wi-Fi, and all the amenities
 of a modern hotel room.
+
+**CIR:** 108050-CNI-00008, 108050-CNI-00009
