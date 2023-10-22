@@ -1,4 +1,5 @@
 ---
+name: Nocciolina
 title: Casa vacanze in Langhe con giardino e piscina
 linkTitle: Casa vacanze in Langhe
 weight: 90

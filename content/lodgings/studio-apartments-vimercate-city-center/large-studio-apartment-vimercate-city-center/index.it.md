@@ -1,6 +1,6 @@
 ---
 title: Ampio monolocale, Vimercate Centro Storico
-title: Ampio monolocale
+linkTitle: Ampio monolocale
 weight: 1
 airbnb: https://www.airbnb.com/rooms/932305272655013426
 aliases:

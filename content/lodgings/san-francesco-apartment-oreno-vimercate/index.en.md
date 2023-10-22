@@ -1,4 +1,5 @@
 ---
+name: San Francesco Apartment
 title: San Francesco Apartment, Old Town Oreno
 linkTitle: San Francesco Apartment
 weight: 3
