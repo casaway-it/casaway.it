@@ -77,7 +77,7 @@
       <div class="container">
         <div class="row thmv-col-reverse">
 
-          <div class="col-lg-5 col-md-12 thmv-welimg-box">
+          <div id="{{ .Params.name | urlize }}" class="col-lg-5 col-md-12 thmv-welimg-box">
             <div class="thmv-welcome-img">
                <a><img src='{{ ((index $images 0).Fill "400x500 BottomLeft webp").RelPermalink }}' alt="{{ .Title }}" /></a>
             </div>
