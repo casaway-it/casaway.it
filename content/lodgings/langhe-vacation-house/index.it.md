@@ -1,5 +1,5 @@
 ---
-name: Casa vacanze in Langhe con giardino e piscina
+name: Langhe Vacation House With Garden and Pool
 title: Casa vacanze in Langhe con giardino e piscina
 linkTitle: Casa vacanze in Langhe
 weight: 90
