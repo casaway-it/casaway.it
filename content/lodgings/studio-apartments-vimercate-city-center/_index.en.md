@@ -1,4 +1,5 @@
 ---
+name: Vimercate
 title: Vimercate, City Center
 weight: 1
 location: Vimercate, Lombardy, Italy

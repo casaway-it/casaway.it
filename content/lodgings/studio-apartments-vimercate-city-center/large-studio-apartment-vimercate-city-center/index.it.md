@@ -1,4 +1,5 @@
 ---
+name: Ampio monolocale, Vimercate Centro Storico
 title: Ampio monolocale, Vimercate Centro Storico
 linkTitle: Ampio monolocale
 weight: 1

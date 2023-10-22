@@ -1,4 +1,5 @@
 ---
+name: Studio Apartment, Vimercate City Center
 title: Studio Apartment, Vimercate City Center
 linkTitle: Studio Apartment
 weight: 1

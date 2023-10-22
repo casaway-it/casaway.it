@@ -1,4 +1,5 @@
 ---
+name: Vimercate
 title: Vimercate, Centro Storico
 weight: 1
 location: Vimercate, Lombardia, Italia

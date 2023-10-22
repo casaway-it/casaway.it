@@ -1,5 +1,5 @@
 ---
-name: San Francesco Apartment
+name: Appartamento San Francesco, Oreno Centro Storico
 title: Appartamento San Francesco, Oreno Centro Storico
 linkTitle: Appartamento San Francesco
 weight: 3

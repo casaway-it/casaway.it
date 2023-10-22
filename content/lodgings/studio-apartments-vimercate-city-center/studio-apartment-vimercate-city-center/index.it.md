@@ -1,4 +1,5 @@
 ---
+name: Monolocale, Vimercate Centro Storico
 title: Monolocale, Vimercate Centro Storico
 linkTitle: Monolocale
 weight: 1
