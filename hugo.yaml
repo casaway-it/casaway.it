@@ -1,3 +1,6 @@
+caches:
+  images:
+    dir: :cacheDir/images
 baseURL: https://casaway.it/
 defaultContentLanguage: en
 enableMissingTranslationPlaceholders: true
@@ -24,7 +27,7 @@ languages:
           weight: 4
           params:
             rel: external
-          url: https://www.airbnb.com/rooms/867463352814667389
+          url: https://nocciolina.net
       main:
         - name: Large Studio Apartment
           weight: 1
@@ -48,7 +51,7 @@ languages:
           weight: 9
           params:
             rel: external
-          url: https://www.airbnb.com/rooms/867463352814667389
+          url: https://nocciolina.net
         - name: Apartments
           url: /
           weight: 1
@@ -104,7 +107,7 @@ languages:
           weight: 4
           params:
             rel: external
-          url: https://www.airbnb.com/rooms/867463352814667389
+          url: https://nocciolina.net
       main:
         - name: Ampio monolocale
           weight: 1
@@ -128,7 +131,7 @@ languages:
           weight: 9
           params:
             rel: external
-          url: https://www.airbnb.com/rooms/867463352814667389
+          url: https://nocciolina.net
         - name: Appartamenti
           weight: 1
           url: /
