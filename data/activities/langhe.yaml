@@ -200,6 +200,11 @@ categories:
           - name: Big Bench #216 (Cascina Facelli)
           - name: Park of the Roses
           - name: Angel of Alta Langa
+        source:
+          label:
+            en: Bossolasco itineraries
+            it: Itinerari di Bossolasco
+          url: https://visitbossolasco.it/en/other/itineraries
 
   - id: walks
     title:
@@ -308,6 +313,11 @@ categories:
         summary:
           en: From La Morra's tourist office out through the great Barolo crus — passes the Cappella del Barolo (the Sol LeWitt / Tremlett art chapel) and ends at the Panca della Serenità red bench.
           it: Dall'ufficio turistico di La Morra tra le grandi crù del Barolo — passa per la Cappella del Barolo (la cappella d'arte di Sol LeWitt e Tremlett) e arriva alla Panca della Serenità.
+        source:
+          label:
+            en: Route on Visit La Morra
+            it: Itinerario su Visit La Morra
+          url: https://www.visitlamorra.it/en/experiences/n-7-sentiero-del-barolo/
 
       - id: sorgenti-del-belbo
         title:
@@ -321,6 +331,11 @@ categories:
         summary:
           en: One of the prettiest Alta Langa walks — interpretive trail through the protected nature reserve at the source of the Belbo river.
           it: Una delle passeggiate più belle dell'Alta Langa — sentiero didattico nella riserva naturale alle sorgenti del Belbo.
+        source:
+          label:
+            en: About the trail on the parks authority site
+            it: Sul percorso sul sito dell'Ente Aree Protette
+          url: https://www.areeprotettealpimarittime.it/news/1758/riserva-del-belbo-si-inaugura-il-percorso-di-albero-in-albero
 
   - id: town-walks
     title:
@@ -339,6 +354,11 @@ categories:
         summary:
           en: Free self-guided wander through Alba's medieval centre — towers, cathedral, the famous via Maestra, and the truffle-market piazza. Best on a market morning (Saturday).
           it: Passeggiata libera nel centro medievale di Alba — torri, duomo, via Maestra e la piazza del mercato del tartufo. Al meglio nelle mattine di mercato (sabato).
+        source:
+          label:
+            en: Alba on Turismo in Langa
+            it: Alba su Turismo in Langa
+          url: https://www.turismoinlanga.it/en/alba/
       - id: castiglione-falletto-borgo
         title:
           en: Castiglione Falletto borgo walk
@@ -351,6 +371,11 @@ categories:
         summary:
           en: Compact medieval centre wrapped around its castle — pick a vineyard panorama from any corner, then a glass at a wine bar.
           it: Centro medievale compatto attorno al castello — un panorama sui vigneti da ogni angolo e poi un bicchiere in un'enoteca.
+        source:
+          label:
+            en: Village info on the municipal site
+            it: Informazioni sul borgo (sito del Comune)
+          url: https://www.comune.castiglionefalletto.cn.it/Guidadettagli
       - id: serralunga-village
         title:
           en: Serralunga d'Alba — village + castle exterior
@@ -363,6 +388,11 @@ categories:
         summary:
           en: One of the most photogenic Barolo villages, dominated by its tall 14th-century castle. The borgo walk is free; the castle interior is paid.
           it: Uno dei borghi più fotogenici del Barolo, dominato dal castello trecentesco. La passeggiata nel borgo è gratuita; l'interno del castello è a pagamento.
+        source:
+          label:
+            en: Village info on the municipal site
+            it: Informazioni sul borgo (sito del Comune)
+          url: https://www.comune.serralungadalba.cn.it/Guidadettagli
       - id: bossolasco-roses
         title:
           en: Bossolasco — village of roses walk
@@ -375,6 +405,11 @@ categories:
         summary:
           en: A wander through Bossolasco centre — rose-lined streets, the "Artist's Signs" on the shopfronts, and the church of St John the Baptist. The closest village walk to the house.
           it: Passeggiata nel centro di Bossolasco — vie fiorite di rose, le "insegne degli artisti" sulle vetrine e la chiesa di San Giovanni Battista. La passeggiata di paese più vicina alla casa.
+        source:
+          label:
+            en: Bossolasco village site
+            it: Sito del paese di Bossolasco
+          url: https://visitbossolasco.it/en/
 
   - id: seasonal
     title:
@@ -414,6 +449,11 @@ categories:
         summary:
           en: Walking Alba during the fair is free — every osteria runs truffle menus, the streets fill with food stalls, and the centre is closed to traffic on fair weekends. The truffle-market hall inside the castle courtyard is the only ticketed part.
           it: Camminare per Alba durante la fiera è gratuito — ogni osteria propone menù al tartufo, le vie si riempiono di bancarelle e il centro è chiuso al traffico nei weekend della fiera. Solo l'ingresso al mercato del tartufo nel cortile del castello è a pagamento.
+        source:
+          label:
+            en: Official fair site
+            it: Sito ufficiale della Fiera
+          url: https://www.fieradeltartufo.org/
 
       - id: autumn-foliage
         title:
