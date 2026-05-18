@@ -3,4 +3,4 @@ title: Recommendations
 linkTitle: Recommendations
 ---
 
-Two areas, two very different rhythms — pick yours below.
+Pick a place to start or a thing to do. Curated by us, drawn from our own short list.

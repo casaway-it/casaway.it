@@ -176,6 +176,138 @@ categories:
         note:
           en: Small country chapel — worth a short detour for the peaceful setting.
           it: Piccola chiesa di campagna — vale una breve deviazione per la quiete del luogo.
+      - name: Park of the Roses — Bossolasco
+        url: https://www.google.com/maps/search/?api=1&query=Parco+delle+Rose+Bossolasco
+        note:
+          en: The "village of roses" lives up to its name — public rose garden in the centre of Bossolasco, best in late spring.
+          it: Il "paese delle rose" merita il soprannome — roseto pubblico nel centro di Bossolasco, al meglio a fine primavera.
+      - name: Angel of Alta Langa — Bossolasco
+        url: https://www.google.com/maps/search/?api=1&query=Angelo+dell%27Alta+Langa+Bossolasco
+        note:
+          en: Wooden sculpture overlooking the Alta Langa valleys — short walk from the village centre.
+          it: Scultura in legno affacciata sulle valli dell'Alta Langa — breve passeggiata dal centro del paese.
+      - name: Sale San Giovanni — Lavender Fields
+        url: https://www.google.com/maps/search/?api=1&query=Sale+San+Giovanni+lavanda
+        note:
+          en: "The 'Little Provence of Piedmont' — lavender, helichrysum and aromatic herbs bloom mid-June to mid-July. Four marked walking trails, €2 contribution at peak season."
+          it: "La 'Piccola Provenza del Piemonte' — lavanda, elicriso ed erbe officinali fioriscono da metà giugno a metà luglio. Quattro sentieri segnati, contributo di 2 € nel periodo di fioritura."
+      - name: Sanctuary of the Virgin of Hal — Bonvicino
+        url: https://www.google.com/maps/search/?api=1&query=Santuario+Madonna+di+Hal+Bonvicino
+        note:
+          en: Hilltop sanctuary reached by an easy walk or short drive — quiet panoramic spot over the Alta Langa woods.
+          it: Santuario su un colle, raggiungibile con una breve passeggiata o in auto — punto panoramico tranquillo sui boschi dell'Alta Langa.
+
+  - id: big-benches
+    title:
+      en: Big Benches & Viewpoints
+      it: Panchine giganti e belvedere
+    pois:
+      - name: Big Bench #100 — Bossolasco
+        url: https://www.google.com/maps/search/?api=1&query=Big+Bench+100+Bossolasco
+        note:
+          en: One of the milestone benches of the Big Bench Community Project, on the Hill of the Resistance.
+          it: Una delle panchine "tappa storica" del Big Bench Community Project, sul Colle della Resistenza.
+      - name: Big Bench #216 — Bossolasco (Cascina Facelli)
+        url: https://www.google.com/maps/search/?api=1&query=Big+Bench+216+Bossolasco+Cascina+Facelli
+        note:
+          en: Inaugurated in 2022 with project founder Chris Bangle, on Strada Galli near Cascina Facelli.
+          it: Inaugurata nel 2022 con il fondatore Chris Bangle, su Strada Galli vicino a Cascina Facelli.
+      - name: Big Bench #85 — San Benedetto Belbo
+        url: https://www.google.com/maps/search/?api=1&query=Big+Bench+85+San+Benedetto+Belbo
+        note:
+          en: Yellow-and-blue bench along the road down from Passo della Bossola — quiet hilltop panorama.
+          it: Panchina giallo-blu lungo la strada che scende dal Passo della Bossola — panorama collinare silenzioso.
+      - name: Big Bench — Paroldo
+        url: https://www.google.com/maps/search/?api=1&query=Panchina+Gigante+Paroldo
+        note:
+          en: Off the usual tourist routes, in one of the most authentic Alta Langa villages.
+          it: Fuori dalle rotte turistiche più battute, in uno dei borghi più autentici dell'Alta Langa.
+      - name: Big Bench — Santo Stefano Belbo
+        url: https://www.google.com/maps/search/?api=1&query=Panchina+Gigante+Santo+Stefano+Belbo
+        note:
+          en: Hometown of writer Cesare Pavese — Moscato hills panorama.
+          it: Paese natale di Cesare Pavese — vista sulle colline del Moscato.
+      - name: Big Bench — Clavesana
+        url: https://www.google.com/maps/search/?api=1&query=Panchina+Gigante+Clavesana
+        note:
+          en: The original Big Bench — built by Chris Bangle himself, where the project began.
+          it: La prima panchina gigante in assoluto, costruita da Chris Bangle, dove è nato il progetto.
+      - name: Big Bench — Dogliani
+        url: https://www.google.com/maps/search/?api=1&query=Panchina+Gigante+Dogliani
+        note:
+          en: Easy stop on the way to or from the Dogliani wine villages.
+          it: Sosta facile andando o tornando dai paesi del Dogliani.
+      - name: Big Bench — Monforte d'Alba
+        url: https://www.google.com/maps/search/?api=1&query=Panchina+Gigante+Monforte+d%27Alba
+        note:
+          en: Above one of the most picturesque Barolo villages, with a wraparound vineyard view.
+          it: Sopra uno dei borghi più pittoreschi del Barolo, con vista panoramica sui vigneti.
+      - name: Panca della Serenità — La Morra
+        url: https://www.google.com/maps/search/?api=1&query=Panca+della+Serenita+La+Morra
+        note:
+          en: Red bench at the end of the Sentiero del Barolo, reached on foot through the great crus.
+          it: Panchina rossa al termine del Sentiero del Barolo, raggiungibile a piedi tra le grandi crù.
+      - name: Cappella delle Brunate (Cappella del Barolo)
+        url: https://www.google.com/maps/search/?api=1&query=Cappella+del+Barolo+Brunate+La+Morra
+        note:
+          en: 19th-century chapel above La Morra repainted by Sol LeWitt and David Tremlett — a tiny piece of contemporary art among the vines.
+          it: Cappella ottocentesca sopra La Morra ridipinta da Sol LeWitt e David Tremlett — un piccolo gioiello d'arte contemporanea tra le vigne.
+      - name: Belvedere La Morra
+        url: https://www.google.com/maps/search/?api=1&query=Belvedere+La+Morra
+        note:
+          en: Panoramic terrace over the Barolo crus, in the heart of the village.
+          it: Terrazza panoramica sulle crù del Barolo, nel cuore del paese.
+      - name: Belvedere Verduno (Parco del Belvedere)
+        url: https://www.google.com/maps/search/?api=1&query=Parco+del+Belvedere+Verduno
+        note:
+          en: Quieter than La Morra — view extends from the Barolo hills to Alta Langa.
+          it: Più tranquillo di La Morra — la vista arriva dalle colline del Barolo fino all'Alta Langa.
+      - name: Belvedere Diano d'Alba
+        url: https://www.google.com/maps/search/?api=1&query=Belvedere+Diano+d%27Alba
+        note:
+          en: Often missed by visitors — sweeping view over the Dolcetto-di-Diano vineyards toward Alba.
+          it: Spesso ignorato dai visitatori — vista ampia sui vigneti del Dolcetto di Diano verso Alba.
+
+  - id: castles
+    title:
+      en: Castles & Historic Villages
+      it: Castelli e borghi storici
+    pois:
+      - name: Castello di Barolo (WiMu)
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Barolo+WiMu
+        note:
+          en: The Barolo Castle in the centre of the village — houses the WiMu wine museum and the Corkscrew Museum next door.
+          it: Il Castello di Barolo nel centro del paese — ospita il Museo del Vino WiMu e, accanto, il Museo del Cavatappi.
+      - name: Castello di Grinzane Cavour
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Grinzane+Cavour
+        note:
+          en: UNESCO landmark on a vineyard hill, with the Regional Enoteca and a restaurant.
+          it: Castello UNESCO su una collina di vigneti, con l'Enoteca Regionale e ristorante.
+      - name: Castello di Serralunga d'Alba
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Serralunga+d%27Alba
+        note:
+          en: Striking vertical 14th-century castle dominating the Barolo hills — guided tours available.
+          it: Slanciato castello trecentesco che domina le colline del Barolo — visite guidate disponibili.
+      - name: Castello di Castiglione Falletto
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Castiglione+Falletto
+        note:
+          en: Squat round-tower castle at the centre of the village — exterior viewing only, but the borgo around it is worth the wander.
+          it: Castello tozzo con torre rotonda nel centro del paese — visibile solo dall'esterno, ma il borgo merita la passeggiata.
+      - name: Castello di Verduno
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Verduno
+        note:
+          en: Once a Savoia hunting lodge — now a small hotel and restaurant, but accessible to walkers in the village.
+          it: Un tempo casino di caccia dei Savoia — oggi piccolo hotel-ristorante, accessibile dal centro del paese.
+      - name: Castello di Roddi
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Roddi
+        note:
+          en: First "sentinel" castle on the Strada del Barolo coming from Alba — hosts a truffle-dog training school.
+          it: Primo castello "sentinella" della Strada del Barolo arrivando da Alba — ospita una scuola per cani da tartufo.
+      - name: Castello di Novello
+        url: https://www.google.com/maps/search/?api=1&query=Castello+di+Novello
+        note:
+          en: Neo-Gothic castle on a hill over the Tanaro valley — currently a hotel-restaurant.
+          it: Castello neogotico su una collina sulla Val Tanaro — oggi hotel-ristorante.
 
   - id: practical
     title:

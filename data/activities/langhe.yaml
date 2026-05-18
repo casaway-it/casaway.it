@@ -1,0 +1,429 @@
+intro:
+  en: Self-organized experiences in the Langhe — themed drives, walking loops, big-bench hunts, seasonal stops. No bookings required.
+  it: Esperienze "fai da te" nelle Langhe — itinerari in auto a tema, percorsi a piedi, "caccia" alle panchine giganti, soste stagionali. Niente prenotazioni.
+
+profiles:
+  - id: couples
+    label:
+      en: Couples
+      it: Coppie
+  - id: friends
+    label:
+      en: Friends
+      it: Amici
+  - id: families
+    label:
+      en: Families
+      it: Famiglie
+
+categories:
+  - id: drives
+    title:
+      en: Self-drive routes
+      it: Itinerari in auto
+    activities:
+      - id: sentinels-of-langhe
+        title:
+          en: The Sentinels of Langhe — castle drive
+          it: Le Sentinelle delle Langhe — viaggio tra i castelli
+        kind: drive
+        profiles: [couples, friends, families]
+        duration:
+          en: Half day (~4h with stops)
+          it: Mezza giornata (~4h con soste)
+        summary:
+          en: Loop through the four medieval "sentinel" castles that watch over the Barolo crus — easy roads, big views, plenty of villages to stop in for an espresso along the way.
+          it: Anello tra i quattro castelli medievali "sentinella" che vegliano sulle crù del Barolo — strade facili, viste ampie e tanti borghi dove fermarsi per un caffè.
+        stops:
+          - name: Castello di Grinzane Cavour
+          - name: Castello di Barolo (WiMu)
+          - name: Castello di Castiglione Falletto
+          - name: Castello di Serralunga d'Alba
+        source:
+          label:
+            en: Route on Strada del Barolo
+            it: Itinerario su Strada del Barolo
+          url: https://www.stradadelbarolo.it/en/itineraries/the-sentinels-of-langhe/
+
+      - id: panoramic-viewpoints
+        title:
+          en: Panoramic viewpoints drive
+          it: Belvedere del Barolo in auto
+        kind: drive
+        profiles: [couples, friends]
+        duration:
+          en: ~3h with photo stops
+          it: ~3h con soste fotografiche
+        summary:
+          en: Hilltop terrace to hilltop terrace — five of the best belvedere over the Barolo vineyards in one short drive. Best at golden hour.
+          it: Da una terrazza panoramica all'altra — cinque tra i migliori belvedere sui vigneti del Barolo in un breve giro. Spettacolare nell'ora dorata.
+        stops:
+          - name: Verduno (Parco del Belvedere)
+          - name: La Morra
+          - name: Monforte d'Alba
+          - name: Serralunga d'Alba
+          - name: Diano d'Alba
+        source:
+          label:
+            en: Route on Strada del Barolo
+            it: Itinerario su Strada del Barolo
+          url: https://www.stradadelbarolo.it/en/itineraries/the-panoramic-viewpoints-in-the-langhe/
+
+      - id: dogliani-dolcetti
+        title:
+          en: Dogliani and its Dolcetti
+          it: Dogliani e i suoi Dolcetti
+        kind: drive
+        profiles: [couples, friends]
+        duration:
+          en: Half day
+          it: Mezza giornata
+        summary:
+          en: The closest "wine villages" run from the house — easy roads through Dogliani DOCG country with a slower, more rural feel than the Barolo zone.
+          it: Il giro dei "paesi del vino" più vicino alla casa — strade facili nel territorio del Dogliani DOCG, con un ritmo più lento e rurale rispetto alla zona del Barolo.
+        stops:
+          - name: Dogliani
+          - name: Monchiero
+          - name: Bossolasco
+        source:
+          label:
+            en: Route on Strada del Barolo
+            it: Itinerario su Strada del Barolo
+          url: https://www.stradadelbarolo.it/en/itineraries/dogliani-e-i-suoi-dolcetti/
+
+      - id: noble-residences
+        title:
+          en: Noble residences of Langhe
+          it: Dimore nobiliari delle Langhe
+        kind: drive
+        profiles: [couples]
+        duration:
+          en: Full day
+          it: Giornata intera
+        summary:
+          en: Stately villas and patrician country houses scattered through Dogliani, Monchiero, La Morra, Novello, and Verduno. Mostly exterior viewing, but the architecture and gardens are the point.
+          it: Ville padronali e dimore di campagna disseminate tra Dogliani, Monchiero, La Morra, Novello e Verduno. Quasi tutte visibili solo dall'esterno, ma l'architettura e i giardini valgono il giro.
+        stops:
+          - name: Dogliani
+          - name: Monchiero
+          - name: La Morra
+          - name: Novello
+          - name: Verduno
+        source:
+          label:
+            en: Route on Strada del Barolo
+            it: Itinerario su Strada del Barolo
+          url: https://www.stradadelbarolo.it/en/itineraries/wandering-through-langhe-in-discovery-of-noble-residences/
+
+      - id: romanesque-pilgrim-route
+        title:
+          en: Romanesque pilgrim route
+          it: Le pievi romaniche
+        kind: drive
+        profiles: [couples]
+        duration:
+          en: Full day
+          it: Giornata intera
+        summary:
+          en: Scattered Romanesque churches along the old pilgrim paths — quiet, often unlocked, and almost always alone with the view.
+          it: Antiche pievi romaniche lungo le vie dei pellegrini — silenziose, spesso aperte, e quasi sempre tutte per te.
+        source:
+          label:
+            en: Route on visitlmr
+            it: Itinerario su visitlmr
+          url: https://www.visitlmr.it/en/what-to-do/itineraries/landscape/romanesque-style
+
+  - id: big-bench-tours
+    title:
+      en: Big Bench tours
+      it: Giri delle panchine giganti
+    activities:
+      - id: bench-northern-loop
+        title:
+          en: Big Bench — Northern Alta Langa loop
+          it: Panchine giganti — anello Nord Alta Langa
+        kind: mixed
+        profiles: [couples, friends, families]
+        duration:
+          en: ~3h (drive + short walks)
+          it: ~3h (auto + brevi passeggiate)
+        summary:
+          en: A drive that strings together four big benches across less-travelled Alta Langa villages — woods, hazelnut groves, and very few tourists.
+          it: Un giro in auto che collega quattro panchine giganti in borghi meno turistici dell'Alta Langa — boschi, noccioleti e quasi nessun turista.
+        stops:
+          - name: Niella Belbo (Esplanade of Love)
+          - name: Paroldo
+          - name: Auguello / Cravanzana
+          - name: Santo Stefano Belbo
+        source:
+          label:
+            en: About the Big Bench Project
+            it: Sul progetto Big Bench
+          url: https://bigbenchcommunityproject.org/
+
+      - id: bench-western-loop
+        title:
+          en: Big Bench — Western Barolo loop
+          it: Panchine giganti — anello Ovest Barolo
+        kind: mixed
+        profiles: [couples, friends, families]
+        duration:
+          en: ~3h with stops
+          it: ~3h con soste
+        summary:
+          en: Three of the most iconic benches of the project in one loop — including the first one Chris Bangle built in Clavesana — through Monforte, Monchiero, Piozzo, Carrù.
+          it: Tre delle panchine più iconiche del progetto in un solo giro — inclusa la prima costruita da Chris Bangle a Clavesana — passando da Monforte, Monchiero, Piozzo e Carrù.
+        stops:
+          - name: Monforte d'Alba
+          - name: Clavesana
+          - name: Dogliani
+        source:
+          label:
+            en: About the Big Bench Project
+            it: Sul progetto Big Bench
+          url: https://bigbenchcommunityproject.org/
+
+      - id: bossolasco-benches
+        title:
+          en: Bossolasco benches walk
+          it: Le panchine di Bossolasco a piedi
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~1.5h
+          it: ~1h30
+        summary:
+          en: Two Big Benches in walking distance from each other, plus the Park of the Roses and the Angel of Alta Langa sculpture. The closest big-bench outing to the house.
+          it: Due panchine giganti raggiungibili a piedi una dall'altra, più il Parco delle Rose e la scultura dell'Angelo dell'Alta Langa. Il giro alle panchine più vicino alla casa.
+        stops:
+          - name: Big Bench #100 (Colle della Resistenza)
+          - name: Big Bench #216 (Cascina Facelli)
+          - name: Park of the Roses
+          - name: Angel of Alta Langa
+
+  - id: walks
+    title:
+      en: Walking loops
+      it: Anelli a piedi
+    activities:
+      - id: primula-trail
+        title:
+          en: Primula Trail — Bossolasco loop
+          it: Sentiero delle Primule — anello di Bossolasco
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~2h · 6.8 km · 160 m climb · easy
+          it: ~2h · 6,8 km · 160 m disl. · facile
+        summary:
+          en: Dirt path mostly under tree cover, half-shaded — works on a hot afternoon. The closest "real" loop hike from the house.
+          it: Sentiero sterrato per lo più sotto i boschi, mezza ombra — funziona anche in un pomeriggio caldo. Il vero anello più vicino alla casa.
+        source:
+          label:
+            en: GPX on Komoot
+            it: GPX su Komoot
+          url: https://www.komoot.com/smarttour/24987386
+
+      - id: roddino-easy
+        title:
+          en: Roddino easy loop
+          it: Anello facile di Roddino
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~1h45 · 6.1 km · 160 m climb · easy
+          it: ~1h45 · 6,1 km · 160 m disl. · facile
+        summary:
+          en: A short loop on accessible paths through hazelnut groves — works for any fitness level, also fine for older kids.
+          it: Anello breve su sentieri ben tenuti tra noccioleti — adatto a qualsiasi livello, anche per bambini più grandi.
+        source:
+          label:
+            en: GPX on Komoot
+            it: GPX su Komoot
+          url: https://www.komoot.com/smarttour/15142234
+
+      - id: serravalle-forest
+        title:
+          en: Forest path — Roddino to Serravalle Langhe
+          it: Sentiero nei boschi — da Roddino a Serravalle Langhe
+        kind: walk
+        profiles: [couples, friends]
+        duration:
+          en: ~2h25 · 8.1 km · 250 m climb · moderate
+          it: ~2h25 · 8,1 km · 250 m disl. · medio
+        summary:
+          en: A forest loop linking the two villages — more elevation than the Roddino easy loop, but still very approachable. Good fitness recommended.
+          it: Anello nei boschi che collega i due paesi — più dislivello dell'anello facile di Roddino, ma comunque alla portata. Consigliato buon allenamento.
+        source:
+          label:
+            en: GPX on Komoot
+            it: GPX su Komoot
+          url: https://www.komoot.com/smarttour/7027046
+
+      - id: via-crucis-bossolasco
+        title:
+          en: Via Crucis loop — Bossolasco
+          it: Anello della Via Crucis — Bossolasco
+        kind: walk
+        profiles: [couples, friends]
+        duration:
+          en: ~2h15 · 7.8 km · 180 m climb · moderate
+          it: ~2h15 · 7,8 km · 180 m disl. · medio
+        summary:
+          en: A devotional loop punctuated by old way-of-the-cross stations, mixing pasture and woodland through the Bossolasco hills.
+          it: Anello devozionale segnato dalle vecchie stazioni della Via Crucis, tra pascoli e boschi sulle colline di Bossolasco.
+        source:
+          label:
+            en: GPX on Komoot
+            it: GPX su Komoot
+          url: https://www.komoot.com/smarttour/7027186
+
+      - id: virgin-of-hal
+        title:
+          en: Sanctuary of the Virgin of Hal loop — Bonvicino
+          it: Anello del Santuario della Madonna di Hal — Bonvicino
+        kind: hike
+        profiles: [couples, friends]
+        duration:
+          en: ~5h · 16.2 km · 490 m climb · moderate
+          it: ~5h · 16,2 km · 490 m disl. · medio
+        summary:
+          en: A longer day hike to a quiet hilltop sanctuary with sweeping Alta Langa views. Pack water and a snack — no fountains en route.
+          it: Escursione più lunga verso un santuario isolato in cima a un colle, con vista ampia sull'Alta Langa. Portarsi acqua e snack — non ci sono fontane lungo il percorso.
+        source:
+          label:
+            en: GPX on Komoot
+            it: GPX su Komoot
+          url: https://www.komoot.com/smarttour/20660333
+
+      - id: sentiero-del-barolo
+        title:
+          en: Sentiero del Barolo — La Morra to the red bench
+          it: Sentiero del Barolo — da La Morra alla panchina rossa
+        kind: walk
+        profiles: [couples, friends]
+        duration:
+          en: ~4h · 12 km · easy-moderate
+          it: ~4h · 12 km · facile-medio
+        summary:
+          en: From La Morra's tourist office out through the great Barolo crus — passes the Cappella del Barolo (the Sol LeWitt / Tremlett art chapel) and ends at the Panca della Serenità red bench.
+          it: Dall'ufficio turistico di La Morra tra le grandi crù del Barolo — passa per la Cappella del Barolo (la cappella d'arte di Sol LeWitt e Tremlett) e arriva alla Panca della Serenità.
+
+      - id: sorgenti-del-belbo
+        title:
+          en: "'From Tree to Tree' loop — Belbo springs nature reserve"
+          it: "Anello 'Di Albero in Albero' — Riserva Sorgenti del Belbo"
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~2h · 6.5 km · 260 m climb · no special fitness needed
+          it: ~2h · 6,5 km · 260 m disl. · senza particolare allenamento
+        summary:
+          en: One of the prettiest Alta Langa walks — interpretive trail through the protected nature reserve at the source of the Belbo river.
+          it: Una delle passeggiate più belle dell'Alta Langa — sentiero didattico nella riserva naturale alle sorgenti del Belbo.
+
+  - id: town-walks
+    title:
+      en: Town strolls
+      it: Passeggiate nei borghi
+    activities:
+      - id: alba-cento-torri
+        title:
+          en: Alba — Cento Torri self-walk
+          it: Alba — passeggiata delle Cento Torri
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~2h
+          it: ~2h
+        summary:
+          en: Free self-guided wander through Alba's medieval centre — towers, cathedral, the famous via Maestra, and the truffle-market piazza. Best on a market morning (Saturday).
+          it: Passeggiata libera nel centro medievale di Alba — torri, duomo, via Maestra e la piazza del mercato del tartufo. Al meglio nelle mattine di mercato (sabato).
+      - id: castiglione-falletto-borgo
+        title:
+          en: Castiglione Falletto borgo walk
+          it: Borgo di Castiglione Falletto a piedi
+        kind: walk
+        profiles: [couples, friends]
+        duration:
+          en: ~1h
+          it: ~1h
+        summary:
+          en: Compact medieval centre wrapped around its castle — pick a vineyard panorama from any corner, then a glass at a wine bar.
+          it: Centro medievale compatto attorno al castello — un panorama sui vigneti da ogni angolo e poi un bicchiere in un'enoteca.
+      - id: serralunga-village
+        title:
+          en: Serralunga d'Alba — village + castle exterior
+          it: Serralunga d'Alba — borgo e castello (esterni)
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~1h30
+          it: ~1h30
+        summary:
+          en: One of the most photogenic Barolo villages, dominated by its tall 14th-century castle. The borgo walk is free; the castle interior is paid.
+          it: Uno dei borghi più fotogenici del Barolo, dominato dal castello trecentesco. La passeggiata nel borgo è gratuita; l'interno del castello è a pagamento.
+      - id: bossolasco-roses
+        title:
+          en: Bossolasco — village of roses walk
+          it: Bossolasco — borgo delle rose
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~1h
+          it: ~1h
+        summary:
+          en: A wander through Bossolasco centre — rose-lined streets, the "Artist's Signs" on the shopfronts, and the church of St John the Baptist. The closest village walk to the house.
+          it: Passeggiata nel centro di Bossolasco — vie fiorite di rose, le "insegne degli artisti" sulle vetrine e la chiesa di San Giovanni Battista. La passeggiata di paese più vicina alla casa.
+
+  - id: seasonal
+    title:
+      en: Seasonal stops
+      it: Soste stagionali
+    activities:
+      - id: sale-san-giovanni-lavender
+        title:
+          en: Sale San Giovanni — lavender bloom walk
+          it: Sale San Giovanni — passeggiata tra la lavanda in fiore
+        kind: seasonal
+        profiles: [couples, friends, families]
+        season:
+          en: Mid-June to mid-July
+          it: Da metà giugno a metà luglio
+        duration:
+          en: "25 min – 4h (four marked trails — Green / Brown / Blue / Orange)"
+          it: "25 min – 4h (quattro sentieri segnati — Verde / Marrone / Azzurro / Arancione)"
+        summary:
+          en: "Piedmont's 'Little Provence': lavender, helichrysum, hyssop, sage and thyme fields, with four colour-coded trails. The Green (7.5 km flat) is stroller-accessible; the Brown (1.1 km) leads to the village arboretum and works for small kids."
+          it: "La 'Piccola Provenza' del Piemonte: campi di lavanda, elicriso, issopo, salvia e timo, con quattro sentieri a colori. Il Verde (7,5 km pianeggiante) è accessibile ai passeggini; il Marrone (1,1 km) porta all'arboreto del paese e funziona con bambini piccoli."
+        source:
+          label:
+            en: Trails + bloom updates on the village site
+            it: Sentieri e aggiornamenti sulla fioritura sul sito del Comune
+          url: https://www.turismosalesangiovanni.it/
+
+      - id: alba-truffle-fair
+        title:
+          en: Alba International White Truffle Fair
+          it: Fiera Internazionale del Tartufo Bianco d'Alba
+        kind: seasonal
+        profiles: [couples, friends]
+        season:
+          en: Early October to early December
+          it: Da inizio ottobre a inizio dicembre
+        summary:
+          en: Walking Alba during the fair is free — every osteria runs truffle menus, the streets fill with food stalls, and the centre is closed to traffic on fair weekends. The truffle-market hall inside the castle courtyard is the only ticketed part.
+          it: Camminare per Alba durante la fiera è gratuito — ogni osteria propone menù al tartufo, le vie si riempiono di bancarelle e il centro è chiuso al traffico nei weekend della fiera. Solo l'ingresso al mercato del tartufo nel cortile del castello è a pagamento.
+
+      - id: autumn-foliage
+        title:
+          en: Alta Langa autumn foliage drive
+          it: Foliage autunnale in Alta Langa
+        kind: seasonal
+        profiles: [couples, friends, families]
+        season:
+          en: Late October to mid-November
+          it: Da fine ottobre a metà novembre
+        summary:
+          en: The Alta Langa woods turn copper-gold around the end of October. Any of the higher-altitude drives (Bossolasco → Murazzano → Niella Belbo) is worth doing again just for the colour.
+          it: I boschi dell'Alta Langa si tingono di rame-oro intorno alla fine di ottobre. Qualsiasi giro in quota (Bossolasco → Murazzano → Niella Belbo) vale la pena di rifarlo solo per i colori.

@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $lang := .Site.Language.Lang }}
+{{ $area := .Params.area }}
+{{ $data := index .Site.Data.activities $area }}
+<main class="thmv-home-2 thmv-activities">
+
+  <section class="thmv-floor-sec thmv-activities-header">
+    <div class="container">
+      <div class="thmv-welcome-box">
+        {{ with .Params.location }}<div class="thmv-pills-blok"><p>{{ . }}</p></div>{{ end }}
+        <h1 class="mt-3">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
+        {{ with $data }}{{ with .intro }}<p>{{ index . $lang }}</p>{{ end }}{{ end }}
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{ with $data }}
+    {{ $profiles := .profiles }}
+    {{ range .categories }}
+    <section class="thmv-activities-category py-4" id="{{ .id }}">
+      <div class="container">
+        <h2 class="mb-4">{{ index .title $lang }}</h2>
+        <div class="row">
+          {{ range .activities }}
+            {{ partial "activity" (dict "activity" . "lang" $lang "profiles" $profiles) }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+  {{ end }}
+
+</main>
+{{ end }}

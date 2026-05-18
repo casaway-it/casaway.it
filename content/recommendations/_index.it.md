@@ -3,4 +3,4 @@ title: Consigli
 linkTitle: Consigli
 ---
 
-Due aree, due ritmi molto diversi — scegli il tuo qui sotto.
+Scegli un posto da dove iniziare o una cosa da fare. Selezioni curate, dalla nostra lista personale.
