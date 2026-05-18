@@ -1,0 +1,194 @@
+intro:
+  en: Our personal selection of where to eat, drink, and wander in the heart of Alta Langa.
+  it: La nostra selezione personale di dove mangiare, bere e passeggiare nel cuore dell'Alta Langa.
+
+categories:
+  - id: restaurants
+    title:
+      en: Restaurants & Osterias
+      it: Ristoranti e osterie
+    pois:
+      - name: Osteria I Rebbi
+        url: https://www.google.com/maps/place/Osteria+I+Rebbi/data=!4m2!3m1!1s0x12d2baae4d359f5d:0x6f485b43c7c227a8
+        note:
+          en: High-quality family-owned restaurant, rich seasonal menu with local delicacies.
+          it: Ristorante a conduzione familiare di altissima qualità, menù stagionale con ingredienti locali.
+      - name: Agriturismo Da Davide
+        url: https://www.google.com/maps/place/Agriturismo+Da+Davide/data=!4m2!3m1!1s0x12d2bbb582f0e5f3:0x37241a62bc698903
+        note:
+          en: Authentic local cuisine, highly recommended by our guests.
+          it: Cucina locale autentica, raccomandato dai nostri ospiti.
+      - name: Osteria Giro Di Vite
+        url: https://www.google.com/maps/place/Osteria+Giro+Di+Vite/data=!4m2!3m1!1s0x12d2a57f352feb1f:0xe4feca581773cbbb
+        note:
+          en: A 1950s time-travel in front of the old Monchiero–Dogliani station — authentic local cuisine.
+          it: Di fronte alla vecchia stazione di Monchiero-Dogliani, cucina locale autentica degli anni '50.
+      - name: L'Angolo di Rosina
+        url: https://www.google.com/maps/place/L'Angolo+di+Rosina/data=!4m2!3m1!1s0x12d2af90be6b8c61:0x705b6f7265bdb3b1
+        note:
+          en: Delicious local cuisine with a great view — may close in winter.
+          it: Deliziosa cucina locale con vista — potrebbe chiudere nei mesi invernali.
+      - name: Il Verso del Ghiottone
+        url: https://www.google.com/maps/place/Il+Verso+del+Ghiottone/data=!4m2!3m1!1s0x12d2a4d00dd154ab:0xe12bfa64c4d1febd
+        note:
+          en: A reliable Dogliani restaurant for local dishes.
+          it: Ristorante affidabile a Dogliani, cucina locale.
+      - name: Osteria Vineria Il Torchio
+        url: https://www.google.com/maps/place/Osteria+Vineria+Il+Torchio/data=!4m2!3m1!1s0x12d2a4c556ea4d3d:0x2ab9fa431a247bd0
+        note:
+          en: Cosy osteria-vineria in Dogliani.
+          it: Osteria-vineria accogliente a Dogliani.
+      - name: TantoVale Osteria, Pizzeria
+        url: https://www.google.com/maps/place/TantoVale+Osteria,+Pizzeria/data=!4m2!3m1!1s0x12d2bb8502d2d79b:0xca4e1dbc0fc8bb43
+        note:
+          en: A newer spot combining pizzeria, osteria and bar — easy stop for an informal meal.
+          it: Locale recente che unisce pizzeria, osteria e bar — sosta informale per un pasto rapido.
+      - name: Osteria Frabea
+        url: https://www.google.com/maps/place/Osteria+pizzeria+frabea/data=!4m2!3m1!1s0x12d2b19b1c30f18b:0x694ce6f45dcf2491
+        note:
+          en: Excellent Neapolitan-style pizza alongside local dishes.
+          it: Pizza napoletana eccellente e selezione di piatti tipici locali.
+      - name: Pizzeria Il Faro di Peloso Giovanni
+        url: https://www.google.com/maps/place/Pizzeria+Il+Faro+di+Peloso+Giovanni/data=!4m2!3m1!1s0x12d2a4d5d21be893:0xccfd02fe86975b58
+        note:
+          en: Tasty pizzas and honest local cuisine.
+          it: Pizze deliziose e cucina locale semplice e genuina.
+      - name: Pizzeria La Lanterna
+        url: https://www.google.com/maps/place/Pizzeria+La+Lanterna/data=!4m2!3m1!1s0x12d2a4daaa0e3339:0xd41fe9637897eeb5
+        note:
+          en: Simple, honest local cooking with good pizzas.
+          it: Cucina locale semplice e ottime pizze.
+      - name: Bar Circolo l'insolito
+        url: https://www.google.com/maps/place/Bar+Circolo+l%E2%80%99insolito/data=!4m2!3m1!1s0x12d2bb00220049c9:0xcd6ffb0157a57b33
+        note:
+          en: Friendly local bar — a good stop for a coffee or aperitivo while exploring the Alta Langa.
+          it: Bar di paese accogliente — sosta ideale per un caffè o un aperitivo girando per l'Alta Langa.
+
+  - id: wineries
+    title:
+      en: Wineries & Wine Bars
+      it: Cantine ed enoteche
+    pois:
+      - name: Cantina Ratti
+        url: https://www.google.com/maps/place/Cantina+Ratti/data=!4m2!3m1!1s0x12d2ae1c6c202365:0x31823b7eec2ba412
+        note:
+          en: Renato Ratti drew the map of the Barolo crùs. Exceptional Barolo, sold worldwide.
+          it: A Renato Ratti dobbiamo la mappa delle crù del Barolo. Vini eccezionali, distribuiti in tutto il mondo.
+      - name: Ceretto
+        url: https://www.google.com/maps/place/Ceretto+-+Visit/data=!4m2!3m1!1s0x12d2b2445e8f227d:0xdc4c7ce39d53c44f
+        note:
+          en: Organic vineyards, outstanding wines, and stunning architecture.
+          it: Vigneti biologici, vini eccellenti e bellissima architettura.
+      - name: Poderi Luigi Einaudi
+        url: https://www.google.com/maps/place/Poderi+Luigi+Einaudi+Azienda+Agricola+Srl/data=!4m2!3m1!1s0x12d2a4bb95a84115:0x449ed733a56c0ca0
+        note:
+          en: Elegant, high-quality winery.
+          it: Produttore di vini di eccezionale qualità.
+      - name: L'Astemia Pentita
+        url: https://www.google.com/maps/place/L'%E2%80%99Astemia+Pentita/data=!4m2!3m1!1s0x12d2ae214c5971cf:0x74456d05e2400a04
+        note:
+          en: Stylish producer with an unmistakable name and design — striking tasting room.
+          it: Produttore dallo stile inconfondibile, con sala degustazione di forte impatto visivo.
+      - name: Vinicola23
+        url: https://www.google.com/maps/place/Vinicola23/data=!4m2!3m1!1s0x12d2a5d272aba27d:0xcad159e0876611cb
+        note:
+          en: Wine bar with a wide selection, cocktails and small bites — recommended for aperitivo.
+          it: Enoteca con ampia selezione di vini, cocktail e piccoli assaggi — consigliata per l'aperitivo.
+      - name: Barolo Bar
+        url: https://www.google.com/maps/place/Barolo+Bar/data=!4m2!3m1!1s0x12d2b01ace95aa27:0xdd476ddc737352bf
+        note:
+          en: A great spot for a glass of wine — family-friendly, with a playground nearby.
+          it: Ottima scelta per un buon bicchiere di vino, adatto a famiglie con parco giochi.
+      - name: Az. Agr. Alessandro Rivetto
+        url: https://www.google.com/maps/place/Az.+Agr.+Alessandro+Rivetto/data=!4m2!3m1!1s0x12d2ae1c9ab79ddd:0x7f55cce854a66995
+        note:
+          en: Organic Barolo producer in Serralunga d'Alba — single-vineyard Lazzarito worth seeking out.
+          it: Produttore di Barolo biologico a Serralunga d'Alba — Barolo Lazzarito da provare.
+
+  - id: food
+    title:
+      en: Food, Gelato & Bakeries
+      it: Gastronomia, gelato e forni
+    pois:
+      - name: L'Albero delle Galline
+        url: https://www.google.com/maps/place/L'Albero+delle+Galline/data=!4m2!3m1!1s0x12cd595a79103481:0x31d1c3ca647ae164
+        note:
+          en: Lovely bakery with a terrace and stunning Alta Langa views.
+          it: Pasticceria deliziosa con terrazza e vista mozzafiato sull'Alta Langa.
+      - name: Précis pastrygelateria
+        url: https://www.google.com/maps/place/Pr%C3%A9cis+pastrygelateria/data=!4m2!3m1!1s0x12d2b1d55c1e1231:0x54c293e5425ea895
+        note:
+          en: Great artisan gelato with local ingredients.
+          it: Ottimo gelato artigianale con ingredienti locali.
+      - name: Cremeria La Fontana
+        url: https://www.google.com/maps/place/Cremeria+La+Fontana+Di+Pellegrino+Alessandra+%26+C.+Snc/data=!4m2!3m1!1s0x12d2a4880dc79e97:0x18c3ad6ff3ad21fd
+        note:
+          en: Classic ice cream parlour — reliable scoop on a hot day.
+          it: Gelateria classica — un cono sicuro nelle giornate calde.
+      - name: Macelleria Doglianese
+        url: https://www.google.com/maps/place/Macelleria+Doglianese/data=!4m2!3m1!1s0x12d2a4d0bd359901:0x67ec102929ced23f
+        note:
+          en: Once you've grilled this meat, you won't grill any other.
+          it: Non griglierai altra carne al di fuori di quella che troverai qui.
+      - name: TASTELANGHE
+        url: https://www.google.com/maps/place/TASTELANGHE+Azienda+Agricola+Quazzo+Paolo/data=!4m2!3m1!1s0x12d2bb76854bf1df:0x5102d0c1bac1930d
+        note:
+          en: Local hazelnut and cocoa products at Km0 — production-line visits by appointment.
+          it: Prodotti a base di nocciole e cacao a Km0, visita alla linea di produzione su appuntamento.
+      - name: Mercatò
+        url: https://www.google.com/maps/place/Mercat%C3%B2/data=!4m2!3m1!1s0x12d2a4de666d40f7:0x44ce00dabb184170
+        note:
+          en: Full grocery with local products — your go-to for a full restock.
+          it: Supermercato completo con prodotti locali — il riferimento per la spesa.
+
+  - id: sights
+    title:
+      en: Sights & Activities
+      it: Luoghi d'interesse e attività
+    pois:
+      - name: Bossolasco
+        url: https://www.google.com/maps/place/Bossolasco/data=!4m2!3m1!1s0x12d2b97f0e4b8f03:0x63e971e3c2b2d89b
+        note:
+          en: The "Village of Roses" — stunning panoramic views over the Alta Langa.
+          it: Il "Paese delle rose" — vista mozzafiato sull'Alta Langa.
+      - name: Castiglione Falletto
+        url: https://www.google.com/maps/place/Castiglione+Falletto/data=!4m2!3m1!1s0x12d2b1c6ac329fd5:0xf3b79fb229d03f0e
+        note:
+          en: Hilltop village surrounded by vineyards — great views and a solid restaurant scene.
+          it: Borgo in cima alla collina circondato dai vigneti — ottime viste e buona selezione di ristoranti.
+      - name: Big Bench Niella Belbo
+        url: https://www.google.com/maps/place/Big+Bench+Niella+Belbo/data=!4m2!3m1!1s0x12d2b8fb414ae709:0xc8f1d4e49e23ae53
+        note:
+          en: Giant bench with panoramic views over the Alta Langa.
+          it: Panchina Gigante con vista panoramica sull'Alta Langa.
+      - name: Parco Safari delle Langhe
+        url: https://www.google.com/maps/place/Parco+Safari+delle+Langhe/data=!4m2!3m1!1s0x12d2bc08485976e5:0xd18db45edd6f6671
+        note:
+          en: Safari park — a summer favourite, especially with kids.
+          it: Parco safari — molto bello d'estate, soprattutto con i bambini.
+      - name: Monumento alla Resistenza
+        url: https://www.google.com/maps/place/Monumento+alla+Resistenza/data=!4m2!3m1!1s0x12d2ba491114570f:0x864408fb93674c90
+        note:
+          en: Historic monument paired with a children's playground.
+          it: Monumento storico abbinato a un parco giochi per bambini.
+      - name: Chiesa della Madonna della Neve
+        url: https://www.google.com/maps/place/Chiesa+della+Madonna+della+Neve/data=!4m2!3m1!1s0x12d2bbdc455c4357:0xc9731b22ccfd032
+        note:
+          en: Small country chapel — worth a short detour for the peaceful setting.
+          it: Piccola chiesa di campagna — vale una breve deviazione per la quiete del luogo.
+
+  - id: practical
+    title:
+      en: Practical
+      it: Informazioni utili
+    pois:
+      - name: Farmacia di Bossolasco
+        url: https://www.google.com/maps/place/Farmacia+di+Bossolasco+di+Corte+Vittorio+e+C.+Sas/data=!4m2!3m1!1s0x12d2b98062785e55:0xd96417d8ce1b9798
+        note:
+          en: The pharmacy nearest to the house, in Bossolasco.
+          it: La farmacia più vicina alla casa, a Bossolasco.
+      - name: Ellena cicli
+        url: https://www.google.com/maps/place/Ellena+cicli/data=!4m2!3m1!1s0x12d2a162fcc5f0ff:0xf38192591bafbf98
+        note:
+          en: Bike shop — handy if you want to rent or service a bike for the Langhe hills.
+          it: Negozio di biciclette — utile per noleggio o assistenza prima di pedalare per le Langhe.

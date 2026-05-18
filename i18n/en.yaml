@@ -30,3 +30,15 @@ book_now:
 
 modern_stays:
     other: Modern and Comfortable Stays
+
+recommendations:
+    other: Recommendations
+
+walk_from_vimercate:
+    other: Walking distance from the Vimercate apartments
+
+walk_from_oreno:
+    other: Walking distance from the San Francesco apartment, Oreno
+
+open_in_maps:
+    other: Open in Google Maps
