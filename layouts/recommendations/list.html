@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main class="thmv-home-2 thmv-recommendations-index">
+  <section class="thmv-floor-sec">
+    <div class="container">
+      <div class="thmv-welcome-box">
+        <h1 class="thmv-wel-title">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+
+      <div class="row mt-4">
+        {{ range .Pages.ByWeight }}
+        <div class="col-md-6 mb-4">
+          <a href="{{ .RelPermalink }}" class="text-decoration-none">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">{{ .LinkTitle | default .Title }}</h3>
+                {{ with .Params.location }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
+                {{ with .Params.subtitle }}<p class="card-text">{{ . }}</p>{{ end }}
+              </div>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}

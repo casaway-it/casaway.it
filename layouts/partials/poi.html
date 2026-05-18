@@ -1,0 +1,25 @@
+{{ $lang := .lang }}
+{{ $poi := .poi }}
+<div class="col-md-6 col-lg-4 mb-4">
+  <div class="card h-100 thmv-poi-card">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a href="{{ $poi.url }}" target="_blank" rel="noopener" title="{{ T "open_in_maps" }}">
+          {{ $poi.name }}
+          <i class="fa-solid fa-arrow-up-right-from-square fa-xs ms-1"></i>
+        </a>
+      </h5>
+      {{ with $poi.note }}
+        <p class="card-text">{{ index . $lang }}</p>
+      {{ end }}
+      {{ with $poi.walking_from }}
+        <p class="card-text thmv-poi-walk">
+          <i class="fa-solid fa-person-walking"></i>
+          <small>
+            {{ if eq . "vimercate" }}{{ T "walk_from_vimercate" }}{{ else if eq . "oreno" }}{{ T "walk_from_oreno" }}{{ end }}
+          </small>
+        </p>
+      {{ end }}
+    </div>
+  </div>
+</div>

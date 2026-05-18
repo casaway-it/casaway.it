@@ -28,6 +28,13 @@ languages:
           params:
             rel: external
           url: https://nocciolina.net
+      footer_recommendations:
+        - name: Brianza, Lombardy
+          weight: 1
+          url: /recommendations/brianza/
+        - name: Langhe, Piemonte
+          weight: 2
+          url: /recommendations/langhe/
       main:
         - name: Large Studio Apartment
           weight: 1
@@ -59,6 +66,17 @@ languages:
           weight: 1
           url: /
           parent: Apartments
+        - name: Recommendations
+          weight: 10
+          url: /recommendations/
+        - name: Brianza, Lombardy
+          weight: 1
+          parent: Recommendations
+          url: /recommendations/brianza/
+        - name: Langhe, Piemonte
+          weight: 2
+          parent: Recommendations
+          url: /recommendations/langhe/
         - name: EN
           weight: 99
           url: /en
@@ -108,6 +126,13 @@ languages:
           params:
             rel: external
           url: https://nocciolina.net
+      footer_recommendations:
+        - name: Brianza, Lombardia
+          weight: 1
+          url: /it/recommendations/brianza/
+        - name: Langhe, Piemonte
+          weight: 2
+          url: /it/recommendations/langhe/
       main:
         - name: Ampio monolocale
           weight: 1
@@ -139,6 +164,17 @@ languages:
           weight: 1
           parent: Appartamenti
           url: /
+        - name: Consigli
+          weight: 10
+          url: /it/recommendations/
+        - name: Brianza, Lombardia
+          weight: 1
+          parent: Consigli
+          url: /it/recommendations/brianza/
+        - name: Langhe, Piemonte
+          weight: 2
+          parent: Consigli
+          url: /it/recommendations/langhe/
         - name: EN
           weight: 99
           url: /en

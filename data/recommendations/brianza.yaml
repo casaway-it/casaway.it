@@ -1,0 +1,433 @@
+intro:
+  en: Our personal picks from the area around Vimercate, Oreno, and Monza.
+  it: I nostri consigli tra Vimercate, Oreno, Monza e dintorni.
+
+categories:
+  - id: restaurants
+    title:
+      en: Restaurants & Dining
+      it: Ristoranti e cucina locale
+    pois:
+      - name: Nonno Cet
+        url: https://www.google.com/maps/place/Nonno+Cet/data=!4m2!3m1!1s0x4786b0eaf8fc5c9b:0x6a84961efab57d1f
+        note:
+          en: The best local cuisine and dining experience in Vimercate.
+          it: La migliore cucina locale a Vimercate.
+      - name: Madeira oysterbar and restaurant
+        url: https://www.google.com/maps/place/Madeira+oysterbar+and+restaurant/data=!4m2!3m1!1s0x4786b0ea41dde391:0x718e3b7f7d936dc0
+        note:
+          en: Fish dishes, a modern take on local cuisine, and a great wine and spirits list. Recommended for aperitivo or Sunday brunch on the piazza.
+          it: Ottimi piatti a base di pesce, interpretazione moderna della cucina locale e ampia selezione di vini e superalcolici. Consigliato per l'aperitivo e brunch domenicale con vista sulla piazza.
+        walking_from: vimercate
+      - name: Ristorante Vico Mercati
+        url: https://www.google.com/maps/place/Ristorante+Vico+Mercati/data=!4m2!3m1!1s0x4786b0e000c0aac3:0x14c2075e5d1d7d5d
+        note:
+          en: High-end, elegant restaurant with Milanese specialties.
+          it: Ristorante di alta qualità con specialità della cucina Milanese.
+        walking_from: vimercate
+      - name: BISTROT IN DIMA
+        url: https://www.google.com/maps/place/BISTROT+IN+DIMA/data=!4m2!3m1!1s0x4786b1e5241c6961:0x4f91017d1cd17ea0
+        note:
+          en: Refined bistrot by day and fine-dining restaurant by night, set in a former Vimercate art gallery.
+          it: Bistrot raffinato a pranzo e ristorante di alta cucina la sera, in un'ex galleria d'arte di Vimercate.
+        walking_from: vimercate
+      - name: Bar Trattoria Basilio
+        url: https://www.google.com/maps/place/Bar+Trattoria+Basilio/data=!4m2!3m1!1s0x4786b0e00ed2b247:0xd605982d4a2baf09
+        note:
+          en: Step back into the 1940s in this family-owned trattoria, with the best homemade local dishes.
+          it: Fai un salto indietro negli anni 40 in questa storica trattoria e assaggia i migliori piatti locali fatti in casa.
+        walking_from: vimercate
+      - name: Osteria Robebuone
+        url: https://www.google.com/maps/place/Osteria+Robebuone/data=!4m2!3m1!1s0x4786b0eaf252f0c5:0xe1a98a167c6f63cb
+        note:
+          en: Unique interpretations of local delicacies.
+          it: Interpretazioni uniche delle specialità locali.
+      - name: Hostaria La Carbonara
+        url: https://www.google.com/maps/place/Hostaria+La+Carbonara/data=!4m2!3m1!1s0x4786b7747207160b:0x4284aaa71d78b235
+        note:
+          en: Typical Milanese cuisine.
+          it: Cucina tipica milanese.
+      - name: Antica Osteria Cascina Rossino 1949
+        url: https://www.google.com/maps/place/Antica+Osteria+Cascina+Rossino+1949/data=!4m2!3m1!1s0x4786b143478a5fe1:0x3685b8c9475647f8
+        note:
+          en: Jump back into the 1950s in this unique osteria and try the most traditional local dishes.
+          it: Fai un salto negli anni 50 in quest'osteria unica e assaggia i piatti più tradizionali.
+      - name: Osteria Del Dosso
+        url: https://www.google.com/maps/place/Osteria+Del+Dosso/data=!4m2!3m1!1s0x4786ba22662145dd:0xa1fae8d2c8349625
+        note:
+          en: A solid stop before or after your visit to Parco di Monza.
+          it: Una sosta ideale prima o dopo aver visitato il Parco di Monza.
+      - name: Agriturismo La Camilla
+        url: https://www.google.com/maps/place/Agriturismo+La+Camilla/data=!4m2!3m1!1s0x4786b0cda9bba62b:0xfc7099406e9da08d
+        note:
+          en: The bistrot is great for lunch in a beautiful garden — perfect for a weekend family meal.
+          it: Il bistrot è ottimo per una pausa pranzo, immerso in un bellissimo giardino — perfetto per un pranzo in famiglia nel fine settimana.
+      - name: Italian Post Office Post
+        url: https://www.google.com/maps/place/Italian+Post+Office+Post/data=!4m2!3m1!1s0x4786b0953ed82ae3:0x71c4d0940a72e8e
+        note:
+          en: Family-friendly pizzeria with a good selection of local dishes, beers, and wines.
+          it: Ristorante-pizzeria adatto a famiglie con ottima selezione di piatti locali, birre e vini.
+      - name: Lo Scrittore
+        url: https://www.google.com/maps/place/Lo+Scrittore/data=!4m2!3m1!1s0x4786ba289ab2c0eb:0xcec3bbc7e1c854d9
+        note:
+          en: Restaurant in the area around Parco di Monza.
+          it: Ristorante nella zona del Parco di Monza.
+      - name: At Basell — Casa del Popolo Oreno
+        url: https://www.google.com/maps/place/At+Basell-Cooperative+Casa+del+Popolo+Oreno/data=!4m2!3m1!1s0x4786b0ea4f09713d:0x4217c1f74da16d74
+        note:
+          en: Sport bar with an easy-going atmosphere and great beer selection; family-friendly on weekend afternoons.
+          it: Bar sport con atmosfera familiare e ottima selezione di birre, adatto anche a famiglie durante il fine settimana.
+        walking_from: oreno
+
+  - id: pizza
+    title:
+      en: Pizza & Casual
+      it: Pizza e cucina informale
+    pois:
+      - name: Al Sud Ristorante Pizzeria
+        url: https://www.google.com/maps/place/Al+Sud+Ristorante+Pizzeria/data=!4m2!3m1!1s0x4786b12fc3ed333f:0xc49feb6f70381730
+        note:
+          en: The best Neapolitan pizza in the area.
+          it: La miglior pizza napoletana della zona.
+      - name: Uagliò — Vimercate
+        url: https://www.google.com/maps/place/Uagli%C3%B2+-+Vimercate/data=!4m2!3m1!1s0x4786b1baba25bc95:0x329fb7d60ce4be8b
+        note:
+          en: Among the best Neapolitan pizzas in town.
+          it: Tra le migliori pizze napoletane della zona.
+      - name: La Marinara
+        url: https://www.google.com/maps/place/La+Marinara/data=!4m2!3m1!1s0x4786b0dfd2bf82c5:0xb7c863b0bcb2c7eb
+        note:
+          en: Great for big family dinners and quick lunch breaks alike.
+          it: Ottimo per le grandi mangiate in famiglia ma anche per una pausa pranzo veloce.
+      - name: Pomodoro E Basilico
+        url: https://www.google.com/maps/place/Pomodoro+E+Basilico/data=!4m2!3m1!1s0x4786b123d103c581:0x46893731595aadaf
+        note:
+          en: Pleases everyone — from fish and meat lovers to gluten-free pizza eaters.
+          it: Mette tutti d'accordo, dagli amanti di carne e pesce ai divoratori di pizza senza glutine.
+        walking_from: vimercate
+      - name: Fish Fusion Bistrot
+        url: https://www.google.com/maps/place/Fish+Fusion+Bistrot+-+Sushi+%26+Fusion+Vimercate/data=!4m2!3m1!1s0x4786b1200940e461:0xdb9094ed01f9c27c
+        note:
+          en: The best sushi in the area.
+          it: Il miglior sushi della zona.
+        walking_from: vimercate
+      - name: Posada — Mexican Pop Kitchen
+        url: https://www.google.com/maps/place/Posada+-+Mexican+Pop+Kitchen/data=!4m2!3m1!1s0x4786b16b6c5c6673:0xa55b4298ae9d599
+        note:
+          en: A solid take on Mexican cuisine.
+          it: Ottima interpretazione della cucina messicana.
+        walking_from: vimercate
+      - name: America Graffiti
+        url: https://www.google.com/maps/place/America+Graffiti/data=!4m2!3m1!1s0x4786b78c6ca07955:0x536b58fa7b3882db
+        note:
+          en: Family-friendly restaurant bringing a taste of American dining to Brianza.
+          it: Ristorante adatto a famiglie che porta in Brianza un assaggio dei piatti americani più famosi.
+
+  - id: cafes
+    title:
+      en: Cafés, Pastries & Sweets
+      it: Caffè, pasticcerie e dolci
+    pois:
+      - name: Bar Caffetteria San Francesco
+        url: https://www.google.com/maps/place/Bar+Caffetteria+San+Francesco/data=!4m2!3m1!1s0x4786b0ea413376f7:0xd6a6d0014b3e2bc8
+        note:
+          en: Espresso, cappuccino and breakfast served with a smile.
+          it: Caffè, cappuccino e colazioni con il sorriso.
+        walking_from: oreno
+      - name: LAB Libri al Banco
+        url: https://www.google.com/maps/place/LAB+Libri+al+Banco/data=!4m2!3m1!1s0x4786b1341810facf:0x73fda3aefa98718a
+        note:
+          en: Sip a coffee while browsing books — laptop-friendly.
+          it: Pausa con un buon caffè sbirciando tra i libri, perfetto anche con il laptop.
+        walking_from: vimercate
+      - name: Pasticceria De Castillia
+        url: https://www.google.com/maps/place/Pasticceria+De+Castillia/data=!4m2!3m1!1s0x4786b0de2f04c685:0x44a01689f40bd985
+        note:
+          en: Artisanal pastry shop and café with a strong selection of gluten-free and allergen-free options.
+          it: Pasticceria artigianale e caffetteria con un'ottima selezione di proposte senza glutine e senza allergeni.
+        walking_from: vimercate
+      - name: Fatti di Frutta
+        url: https://www.google.com/maps/place/Fatti+di+Frutta+Srl/data=!4m2!3m1!1s0x4786b12007c150a9:0x7da2051948aaa3ee
+        note:
+          en: Unique fruit- and chocolate-based artistic creations. Hard to decide whether to eat or admire them.
+          it: Creazioni uniche a base di frutta e cioccolato. Sarà dura decidere se mangiarle o ammirarle.
+        walking_from: vimercate
+      - name: Chiosco della Montagnetta
+        url: https://www.google.com/maps/place/Chiosco+della+Montagnetta/data=!4m2!3m1!1s0x4786ba2b4e72ecf1:0x2eb92444b2f897b9
+        note:
+          en: Kiosk inside Parco di Monza, on the little hill — handy stop on a Park walk.
+          it: Chiosco all'interno del Parco di Monza, sulla Montagnetta — sosta utile durante una passeggiata nel parco.
+
+  - id: producers
+    title:
+      en: Local Food Producers
+      it: Produttori locali
+    pois:
+      - name: Agricola Fortuna
+        url: https://www.google.com/maps/place/Agricola+Fortuna/data=!4m2!3m1!1s0x4786b0ea2a35571f:0x2c621c985a648dfa
+        note:
+          en: The inventors of Gnocchi di Oreno — local Km0 vegetables, the famous white potatoes, and other artisanal products.
+          it: Gli inventori degli Gnocchi di Oreno. Verdure a Km0, le famose patate bianche e altri prodotti artigianali.
+        walking_from: oreno
+      - name: Pescheria Mosca
+        url: https://www.google.com/maps/place/Pescheria+Mosca/data=!4m2!3m1!1s0x4786b122aca6f7ef:0x6b9af1b0b09970b3
+        note:
+          en: Fresh fish daily, with a kitchen open at lunch. Supplies the local market and restaurants.
+          it: Pesce fresco ogni giorno, ora con cucina aperta a pranzo. Rifornisce il mercato e i ristoranti locali.
+        walking_from: vimercate
+      - name: Azienda Agricola Frigerio Augusto
+        url: https://www.google.com/maps/place/Azienda+Agricola+Frigerio+Augusto/data=!4m2!3m1!1s0x4786b13d618bb9ef:0xf7a21b7b66c893c0
+        note:
+          en: Local farm with fresh vegetables and flours.
+          it: Fattoria locale con verdure fresche e farine.
+      - name: Merum Enoteca
+        url: https://www.google.com/maps/place/Merum+Enoteca/data=!4m2!3m1!1s0x4786b0e006fdd1c5:0xe33e605b02fe9832
+        note:
+          en: Wine shop in central Vimercate — a good first stop before dinner.
+          it: Enoteca nel centro di Vimercate — buona sosta prima di cena.
+        walking_from: vimercate
+
+  - id: parks
+    title:
+      en: Parks & Walks
+      it: Parchi e passeggiate
+    pois:
+      - name: Parco del Ginestrino
+        url: https://www.google.com/maps/place/Parco+del+Ginestrino/data=!4m2!3m1!1s0x4786b75c4900e54f:0x84f23eabbeae336b
+        note:
+          en: Walking and running loop in a green park, near a pool, skate park, playground, and bistrot.
+          it: Anello per camminare o correre immerso nel verde, vicino alla piscina, skate park, parco giochi e punto ristoro.
+      - name: Parco Aldo Moro
+        url: https://www.google.com/maps/place/Parco+Aldo+Moro/data=!4m2!3m1!1s0x4786b73c9e0d29fb:0xa0a99700e6c1245f
+        note:
+          en: Spacious, well-kept playground with plenty of green and a skate park.
+          it: Parco giochi molto spazioso e ben organizzato, con molto verde e uno skate park.
+      - name: Parco Gussi
+        url: https://www.google.com/maps/place/Parco+Gussi/data=!4m2!3m1!1s0x4786b0e110acb087:0xa2b955c8899c65d6
+        note:
+          en: Green park near Vimercate, good for a quiet afternoon walk.
+          it: Parco verde vicino a Vimercate, ideale per una passeggiata tranquilla nel pomeriggio.
+      - name: Pista ciclabile naviglio Martesana
+        url: https://www.google.com/maps/place/Pista+ciclabile+naviglio+Martesana/data=!4m2!3m1!1s0x47814d5ea133d13f:0xb680b779adf7f35b
+        note:
+          en: Long, flat cycle path along the Martesana canal — runs all the way from Milan to the Adda river.
+          it: Lunga pista ciclabile pianeggiante lungo il Naviglio Martesana — da Milano fino al fiume Adda.
+      - name: Lungofiume Di Brivio
+        url: https://www.google.com/maps/place/Lungofiume+Di+Brivio/data=!4m2!3m1!1s0x4786aeb1aa57436b:0x68925869c69bafb4
+        note:
+          en: Relaxing riverside walk along the Adda.
+          it: Per una passeggiata rilassante lungo l'Adda.
+      - name: Santuario della Beata Vergine del Carmelo
+        url: https://www.google.com/maps/place/Santuario+della+Beata+Vergine+del+Carmelo/data=!4m2!3m1!1s0x4786afa2809b1a21:0x7edb89b20cdc12f1
+        note:
+          en: On clear days you can spot the top of the Duomo di Milano from up here.
+          it: Nelle giornate serene si riesce a vedere la cima del Duomo di Milano da quassù.
+      - name: Giardini della Villa Reale (Monza)
+        url: https://www.google.com/maps/place/Giardini+della+Villa+Reale/data=!4m2!3m1!1s0x4786b98349065d6f:0x226e4b90b1a51a56
+        note:
+          en: Royal gardens behind Monza's Villa Reale — a green escape right next to the city center.
+          it: I giardini reali alle spalle della Villa Reale di Monza — un'oasi verde a due passi dal centro.
+      - name: Giardinetti di Oreno
+        url: https://www.google.com/maps/place/Giardinetti+di+Oreno/data=!4m2!3m1!1s0x4786b184c978830b:0xd868ff405c334290
+        note:
+          en: Small public garden in Oreno — quiet spot in the old town.
+          it: Piccolo giardino pubblico a Oreno, angolo tranquillo nel borgo antico.
+        walking_from: oreno
+      - name: Area gioco bimbi
+        url: https://www.google.com/maps/place/Area+gioco+bimbi/data=!4m2!3m1!1s0x4786b16ed0cb1d87:0x315f0927c0fd5a37
+        note:
+          en: Playground area — handy break for families.
+          it: Area giochi per bambini — pausa utile per famiglie.
+
+  - id: family
+    title:
+      en: Family & Kids
+      it: Famiglia e bambini
+    pois:
+      - name: Leolandia
+        url: https://www.google.com/maps/place/Leolandia/data=!4m2!3m1!1s0x47814ce823690c87:0x4793c757a4d2e6d1
+        note:
+          en: One of Italy's most popular theme parks for families with young kids — about 45 minutes by car.
+          it: Uno dei parchi divertimento più amati dalle famiglie con bambini piccoli — a circa 45 minuti d'auto.
+      - name: Oplà Acquabeach Village
+        url: https://www.google.com/maps/place/Opl%C3%A0+Acquabeach+Village/data=!4m2!3m1!1s0x4786b13447c076af:0x8f843a60f7a02f4e
+        note:
+          en: Outdoor waterpark — great for summer afternoons with kids.
+          it: Parco acquatico all'aperto — ottimo per pomeriggi estivi in famiglia.
+      - name: Shirin — Labirinto di Girasoli
+        url: https://www.google.com/maps/place/Shirin+Laberinto+di+Girasoli/data=!4m2!3m1!1s0x4786b1d351cc29b5:0xc1f189b9156ed549
+        note:
+          en: A 2 km sunflower labyrinth in Ornago, open in July only — booking required.
+          it: Labirinto di girasoli di 2 km a Ornago, aperto solo a luglio — prenotazione obbligatoria.
+      - name: The Space Cinema — Vimercate
+        url: https://www.google.com/maps/place/The+Space+Cinema+-+Vimercate/data=!4m2!3m1!1s0x4786b0d189cb3585:0x567e9a751b73cf41
+        note:
+          en: Multiplex cinema — current releases, also in original-language showings.
+          it: Multisala — film di prima visione, anche in lingua originale.
+      - name: Millepiedi Vimercate
+        url: https://www.google.com/maps/place/Millepiedi+Vimercate/data=!4m2!3m1!1s0x4786b0dd111a3833:0xeddb87baac14c81d
+        note:
+          en: Indoor children's play space — useful on rainy days.
+          it: Ludoteca al coperto — utile nei giorni di pioggia.
+      - name: Zoya Villa Park
+        url: https://www.google.com/maps/place/Zoya+Villa+Park/data=!4m2!3m1!1s0x4786b74930e5eb03:0xc177d8e627053167
+        note:
+          en: Restaurant set in a villa park — relaxed family setting.
+          it: Ristorante immerso in un parco di villa — ambiente rilassato adatto alle famiglie.
+      - name: Agri Brianza — Concorezzo
+        url: https://www.google.com/maps/place/Agri+Brianza+-+Concorezzo+(MB)/data=!4m2!3m1!1s0x4786b74b041d62d1:0x92c78f7994e21835
+        note:
+          en: The best gardening shop around — don't miss the Christmas village.
+          it: Il miglior negozio di giardinaggio e decorazioni. Da non perdere il Villaggio di Natale.
+
+  - id: sights
+    title:
+      en: Sights & Culture
+      it: Luoghi d'interesse e cultura
+    pois:
+      - name: Corte San Francesco
+        url: https://www.google.com/maps/place/Corte+San+Francesco/data=!4m2!3m1!1s0x4786b1d118e076ab:0x6f83f4fb936e0ee
+        note:
+          en: The historic Franciscan complex of Oreno, dating back to the 13th century — the heart of the old town.
+          it: Lo storico complesso francescano di Oreno, di origine duecentesca — il cuore del borgo antico.
+        walking_from: oreno
+      - name: Oratorio di Oreno
+        url: https://www.google.com/maps/place/Oratorio+di+Oreno/data=!4m2!3m1!1s0x4786b0e98dd78649:0xfab6d7026201543e
+        note:
+          en: Parish oratory in Oreno — community hub right in the village.
+          it: Oratorio parrocchiale di Oreno, punto di riferimento del paese.
+        walking_from: oreno
+      - name: Convento Frati Cappuccini San Francesco d'Assisi
+        url: https://www.google.com/maps/place/Convento+Frati+Cappuccini+San+Francesco+d'Assisi/data=!4m2!3m1!1s0x4786b0ebb8ad1c79:0x9d5303864153f091
+        note:
+          en: Capuchin friars' convent, set in the medieval Franciscan complex of Oreno.
+          it: Convento dei Frati Cappuccini, nello storico complesso francescano medievale di Oreno.
+        walking_from: oreno
+      - name: Corte Rustica Borromeo
+        url: https://www.google.com/maps/place/Corte+Rustica+Borromeo/data=!4m2!3m1!1s0x4786b0eb2e201563:0x83175a2de18bca76
+        note:
+          en: 15th-century Borromeo courtyard hosting the Casino di Caccia — one of Lombardy's finest cycles of late-Gothic profane frescoes.
+          it: Corte quattrocentesca dei Borromeo che ospita il Casino di Caccia — uno dei più importanti cicli di affreschi profani tardogotici della Lombardia.
+        walking_from: oreno
+      - name: La Lodovica — dimora di campagna XIX sec.
+        url: https://www.google.com/maps/place/La+Lodovica+-+dimora+di+campagna+XIX+sec./data=!4m2!3m1!1s0x4786b09238daea79:0xb31722faa739a1dc
+        note:
+          en: A 19th-century country mansion in Oreno — occasionally hosts events and visits.
+          it: Dimora di campagna dell'Ottocento a Oreno — ospita saltuariamente eventi e visite.
+        walking_from: oreno
+      - name: Asilo Infantile Di Oreno
+        url: https://www.google.com/maps/place/Asilo+Infantile+Di+Oreno/data=!4m2!3m1!1s0x4786b0eb2dc6737b:0xa3ce2fdd3ab6cc86
+        note:
+          en: Historic building in Oreno hosting the village kindergarten.
+          it: Edificio storico di Oreno sede dell'asilo del paese.
+        walking_from: oreno
+      - name: MUST — Museum of the Vimercate Territory
+        url: https://www.google.com/maps/place/MUST+-+Museum+of+the+Vimercate+Territory/data=!4m2!3m1!1s0x4786b0dfa1426909:0xec9177053fee21b2
+        note:
+          en: Discover local history, the surrounding territory, and current cultural activities.
+          it: Scopri la storia locale, il territorio circostante e le attività culturali in corso.
+        walking_from: vimercate
+      - name: Museo e Tesoro del Duomo di Monza
+        url: https://www.google.com/maps/place/Museo+e+Tesoro+del+Duomo+di+Monza/data=!4m2!3m1!1s0x4786b9a2734b1965:0x24b25994d285a161
+        note:
+          en: Houses the Iron Crown of Monza and the cathedral's treasury — a key Lombard heritage stop.
+          it: Custodisce la Corona Ferrea e il Tesoro del Duomo — tappa imperdibile del patrimonio lombardo.
+      - name: Arengario (Monza)
+        url: https://www.google.com/maps/place/Arengario/data=!4m2!3m1!1s0x4786b99f55aeb30f:0x304a12a55220c23a
+        note:
+          en: Monza's medieval town hall, right at the heart of the city center.
+          it: L'antico palazzo comunale di Monza, nel cuore del centro storico.
+      - name: Ponte dei Leoni (Monza)
+        url: https://www.google.com/maps/place/Ponte+dei+Leoni/data=!4m2!3m1!1s0x4786b99881793353:0xc77393e71974f256
+        note:
+          en: The hot spot of Monza city center — landmark stone bridge over the Lambro.
+          it: Il punto di snodo del centro di Monza — storico ponte sul Lambro.
+      - name: Monumento ai Caduti (Monza)
+        url: https://www.google.com/maps/place/Monumento+ai+Caduti/data=!4m2!3m1!1s0x4786b9a1c2efd90d:0xee52e7680cda222f
+        note:
+          en: Monza's war memorial in the city center.
+          it: Monumento ai Caduti nel centro di Monza.
+      - name: Rinascente Monza
+        url: https://www.google.com/maps/place/Rinascente+Monza/data=!4m2!3m1!1s0x4786b9a15a7b8511:0x3c0fda2407c4cb49
+        note:
+          en: World-famous department store in the heart of Monza.
+          it: Catena di grandi magazzini famosa in tutto il mondo, in pieno centro a Monza.
+      - name: Il Magico Albero Di Natale
+        url: https://www.google.com/maps/place/Il+Magico+Albero+Di+Natale/data=!4m2!3m1!1s0x4786b9480b47a8c3:0x45395cd5c7471c5
+        note:
+          en: Year-round Christmas store — worth a stop even out of season.
+          it: Negozio di Natale aperto tutto l'anno — vale la sosta in qualsiasi stagione.
+      - name: Cascina Cavallera
+        url: https://www.google.com/maps/place/Cascina+Cavallera/data=!4m2!3m1!1s0x4786b0a3dc4637ab:0x370fdf6246962307
+        note:
+          en: Historic Vimercate farmhouse — a recognisable landmark on the way out of town.
+          it: Storica cascina vimercatese — punto di riferimento all'uscita del paese.
+      - name: Braccio Di Ferro Di Erba Simone
+        url: https://www.google.com/maps/place/Braccio+Di+Ferro+Di+Erba+Simone/data=!4m2!3m1!1s0x4786b0ea3b798df1:0x88fb23de1328acab
+        note:
+          en: Friendly local spot in Oreno.
+          it: Locale di paese a Oreno.
+        walking_from: oreno
+
+  - id: shopping
+    title:
+      en: Shopping & Services
+      it: Negozi e servizi
+    pois:
+      - name: Esselunga
+        url: https://www.google.com/maps/place/Esselunga/data=!4m2!3m1!1s0x4786b0d700000001:0xcd06ce99712599df
+        note:
+          en: The best supermarket chain in Brianza.
+          it: La migliore catena di supermercati della Brianza.
+      - name: ALDI Arcore
+        url: https://www.google.com/maps/place/ALDI+Arcore/data=!4m2!3m1!1s0x4786b07e0acb041b:0x6cb22c70d7ed898d
+        note:
+          en: Discount supermarket in Arcore — handy for quick top-ups.
+          it: Supermercato discount ad Arcore — utile per una spesa rapida.
+      - name: Centro Commerciale Globo
+        url: https://www.google.com/maps/place/Centro+Commerciale+Globo/data=!4m2!3m1!1s0x4786b306b10fd413:0xa4d0f44025493c21
+        note:
+          en: The largest and busiest mall in the area.
+          it: Il più grande e frequentato centro commerciale della zona.
+      - name: Ferramenta Maghi
+        url: https://www.google.com/maps/place/Ferramenta+Maghi/data=!4m2!3m1!1s0x4786b0c2d1b83ff1:0x328cb9a5f6e3859a
+        note:
+          en: Professional-grade hardware store.
+          it: Negozio di ferramenta orientato ai professionisti.
+      - name: S.A.M.O. elettronica
+        url: https://www.google.com/maps/place/S.A.M.O.+elettronica+sas/data=!4m2!3m1!1s0x4786b0dbc2ead63d:0x947f23d0bf3e6890
+        note:
+          en: Everything you need for an electronics project.
+          it: Troverai tutto ciò che serve per i tuoi progetti di elettronica.
+      - name: PANTA REI — Centro del Riuso
+        url: https://www.google.com/maps/place/PANTA+REI+CENTRO+DEL+RIUSO/data=!4m2!3m1!1s0x4786b1c874139ed9:0xe05943d604855fd2
+        note:
+          en: Sustainable thrift store — donate and buy used items.
+          it: Centro del riuso sostenibile — dona e compra oggetti usati.
+      - name: H2O Fiori
+        url: https://www.google.com/maps/place/H2O+Fiori/data=!4m2!3m1!1s0x4786b048267ccba7:0x2cb222d776a7cdbb
+        note:
+          en: Unique floral creations.
+          it: Creazioni floreali uniche.
+        walking_from: vimercate
+      - name: MILLION STORE
+        url: https://www.google.com/maps/place/MILLION+STORE/data=!4m2!3m1!1s0x4786b11f1a52fe0d:0xeaa671a428d0bef
+        note:
+          en: Discount retail — household items and basics.
+          it: Negozio discount — articoli per la casa e prodotti di base.
+
+  - id: practical
+    title:
+      en: Practical
+      it: Informazioni utili
+    pois:
+      - name: ASST Brianza — Vimercate Hospital
+        url: https://www.google.com/maps/place/ASST+Brianza+-+Vimercate+Hospital/data=!4m2!3m1!1s0x4786b3f2428e5a75:0xedfd5a2b8f25e49e
+        note:
+          en: Public hospital serving the Vimercate area.
+          it: Ospedale pubblico di riferimento per la zona di Vimercate.
+      - name: Free parking near Parco di Monza
+        url: https://www.google.com/maps/place/Area+parcheggio+gratuito/data=!4m2!3m1!1s0x4786bbad419bcca5:0x5ec7e68ca3bd08bd
+        note:
+          en: Free parking area — useful when visiting Parco di Monza or the city center.
+          it: Area di parcheggio gratuito — comoda per visitare il Parco di Monza o il centro città.

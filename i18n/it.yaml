@@ -30,3 +30,15 @@ book_now:
 
 modern_stays:
     other: Alloggi moderni e confortevoli
+
+recommendations:
+    other: Consigli
+
+walk_from_vimercate:
+    other: A piedi dai monolocali di Vimercate
+
+walk_from_oreno:
+    other: A piedi dall'Appartamento San Francesco, Oreno
+
+open_in_maps:
+    other: Apri in Google Maps
