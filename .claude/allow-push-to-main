@@ -1,0 +1,3 @@
+# Sentinel for ~/.claude/settings.json push-to-main hook.
+# Presence opts this repo into direct `git push origin main`
+# (deploy branch for GitHub Pages, single maintainer).
