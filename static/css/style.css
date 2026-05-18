@@ -3785,3 +3785,11 @@ Created by Bellevue Theme
         display: none;
     }
 /*=====  End of gallery fancybox  ======*/
+
+/*=============================================
+=            activity profile pills           =
+=============================================*/
+    .thmv-profile-couples  { background-color: #b85c79; color: #fff; }
+    .thmv-profile-friends  { background-color: #c08a40; color: #fff; }
+    .thmv-profile-families { background-color: #5e8d5e; color: #fff; }
+/*=====  End of activity profile pills  ======*/

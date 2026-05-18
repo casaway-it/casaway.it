@@ -3,6 +3,7 @@
 {{ $profiles := .profiles }}
 {{ $kindIcon := dict "drive" "fa-car" "walk" "fa-person-walking" "hike" "fa-person-hiking" "bike" "fa-bicycle" "mixed" "fa-route" "seasonal" "fa-calendar-day" }}
 {{ $icon := index $kindIcon $activity.kind | default "fa-route" }}
+{{ $profileBadge := dict "couples" "thmv-profile-couples" "friends" "thmv-profile-friends" "families" "thmv-profile-families" }}
 <div class="col-md-6 col-lg-6 mb-4">
   <div class="card h-100 thmv-activity-card">
     <div class="card-body">
@@ -14,7 +15,7 @@
         {{ range $pid := $activity.profiles }}
           {{ range $p := $profiles }}
             {{ if eq $p.id $pid }}
-              <span class="badge bg-secondary me-1">{{ index $p.label $lang }}</span>
+              <span class="badge {{ index $profileBadge $p.id | default "bg-secondary" }} me-1">{{ index $p.label $lang }}</span>
             {{ end }}
           {{ end }}
         {{ end }}
