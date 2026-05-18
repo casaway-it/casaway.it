@@ -29,12 +29,12 @@ languages:
             rel: external
           url: https://nocciolina.net
       footer_recommendations:
-        - name: Brianza, Lombardy
+        - name: Points of Interest
           weight: 1
-          url: /recommendations/brianza/
-        - name: Langhe, Piemonte
+          url: /recommendations/points-of-interest/
+        - name: Things to Do
           weight: 2
-          url: /recommendations/langhe/
+          url: /recommendations/things-to-do/
       main:
         - name: Large Studio Apartment
           weight: 1
@@ -69,14 +69,36 @@ languages:
         - name: Recommendations
           weight: 10
           url: /recommendations/
-        - name: Brianza, Lombardy
+        - name: Points of Interest
+          identifier: pois
           weight: 1
           parent: Recommendations
-          url: /recommendations/brianza/
+          url: /recommendations/points-of-interest/
         - name: Langhe, Piemonte
+          identifier: pois-langhe
+          weight: 1
+          parent: pois
+          url: /recommendations/points-of-interest/langhe/
+        - name: Brianza, Lombardy
+          identifier: pois-brianza
+          weight: 2
+          parent: pois
+          url: /recommendations/points-of-interest/brianza/
+        - name: Things to Do
+          identifier: activities
           weight: 2
           parent: Recommendations
-          url: /recommendations/langhe/
+          url: /recommendations/things-to-do/
+        - name: Langhe, Piemonte
+          identifier: activities-langhe
+          weight: 1
+          parent: activities
+          url: /recommendations/things-to-do/langhe/
+        - name: Brianza, Lombardy
+          identifier: activities-brianza
+          weight: 2
+          parent: activities
+          url: /recommendations/things-to-do/brianza/
         - name: EN
           weight: 99
           url: /en
@@ -127,12 +149,12 @@ languages:
             rel: external
           url: https://nocciolina.net
       footer_recommendations:
-        - name: Brianza, Lombardia
+        - name: Luoghi d'interesse
           weight: 1
-          url: /it/recommendations/brianza/
-        - name: Langhe, Piemonte
+          url: /it/recommendations/points-of-interest/
+        - name: Cose da fare
           weight: 2
-          url: /it/recommendations/langhe/
+          url: /it/recommendations/things-to-do/
       main:
         - name: Ampio monolocale
           weight: 1
@@ -167,14 +189,36 @@ languages:
         - name: Consigli
           weight: 10
           url: /it/recommendations/
-        - name: Brianza, Lombardia
+        - name: Luoghi d'interesse
+          identifier: pois
           weight: 1
           parent: Consigli
-          url: /it/recommendations/brianza/
+          url: /it/recommendations/points-of-interest/
         - name: Langhe, Piemonte
+          identifier: pois-langhe
+          weight: 1
+          parent: pois
+          url: /it/recommendations/points-of-interest/langhe/
+        - name: Brianza, Lombardia
+          identifier: pois-brianza
+          weight: 2
+          parent: pois
+          url: /it/recommendations/points-of-interest/brianza/
+        - name: Cose da fare
+          identifier: activities
           weight: 2
           parent: Consigli
-          url: /it/recommendations/langhe/
+          url: /it/recommendations/things-to-do/
+        - name: Langhe, Piemonte
+          identifier: activities-langhe
+          weight: 1
+          parent: activities
+          url: /it/recommendations/things-to-do/langhe/
+        - name: Brianza, Lombardia
+          identifier: activities-brianza
+          weight: 2
+          parent: activities
+          url: /it/recommendations/things-to-do/brianza/
         - name: EN
           weight: 99
           url: /en
