@@ -33,3 +33,9 @@ ci:
 lint:
     actionlint .github/workflows
     zizmor .github/workflows
+
+# Generate missing Things-to-Do cover images via Google Imagen
+# Args: ARGS — passed to scripts/imagen-activities.py (e.g. just images --only id1,id2)
+images *ARGS:
+    ./scripts/imagen-activities.py {{ARGS}}
+
