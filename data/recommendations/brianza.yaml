@@ -238,6 +238,26 @@ categories:
         note:
           en: Playground area — handy break for families.
           it: Area giochi per bambini — pausa utile per famiglie.
+      - name: Parco della Media Valle del Lambro
+        url: https://www.google.com/maps/search/?api=1&query=Parco+della+Media+Valle+del+Lambro
+        note:
+          en: Regional park along the Lambro river south of Monza — long flat walking and cycling paths through woodland and meadows.
+          it: Parco regionale lungo il Lambro a sud di Monza — sentieri lunghi e pianeggianti per camminare e andare in bici nei boschi e nei prati.
+      - name: Parco Valle Lambro
+        url: https://www.google.com/maps/search/?api=1&query=Parco+Regionale+Valle+del+Lambro
+        note:
+          en: Larger regional park system tracing the upper Lambro through Brianza hills — quiet trails, small lakes, several access points.
+          it: Sistema di parchi regionali che segue il corso alto del Lambro attraverso la Brianza — sentieri tranquilli, piccoli laghi, più ingressi.
+      - name: Parco dei Colli Briantei (Arcore)
+        url: https://www.google.com/maps/search/?api=1&query=Parco+dei+Colli+Briantei+Arcore
+        note:
+          en: Wooded park on the hills above Arcore — short trails, panoramic points, well-marked loops.
+          it: Parco boschivo sulle colline sopra Arcore — sentieri brevi, punti panoramici, anelli ben segnati.
+      - name: Oasi Lipu Cesano Maderno
+        url: https://www.google.com/maps/search/?api=1&query=Oasi+Lipu+Cesano+Maderno
+        note:
+          en: Bird-watching reserve in the Parco delle Groane — hides, marked paths, weekend opening.
+          it: Riserva LIPU per il birdwatching nel Parco delle Groane — capanni di osservazione, sentieri segnati, apertura nei fine settimana.
 
   - id: family
     title:
@@ -368,6 +388,115 @@ categories:
           en: Friendly local spot in Oreno.
           it: Locale di paese a Oreno.
         walking_from: oreno
+
+  - id: villas
+    title:
+      en: Villas & Historic Houses
+      it: Ville e dimore storiche
+    pois:
+      - name: Villa Borromeo d'Adda — Arcore
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Borromeo+d%27Adda+Arcore
+        note:
+          en: Neo-Baroque villa with extensive gardens, historic stables and the Sail Chapel. Public visits with audioguide / guide on the 2nd Sunday of each month.
+          it: Villa neobarocca con ampi giardini, scuderie storiche e la Cappella Vela. Visite pubbliche con audioguida / guida la seconda domenica di ogni mese.
+      - name: Villa Cusani Traversi Tittoni — Desio
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Cusani+Traversi+Tittoni+Desio
+        note:
+          en: One of the great Lombard "villas of delight"; the symbol of Ville Aperte 2026. Park accessible year-round; interiors open during the festival.
+          it: Una delle grandi "ville di delizia" lombarde; villa simbolo di Ville Aperte 2026. Parco accessibile tutto l'anno; gli interni durante il festival.
+      - name: Villa Sottocasa — Vimercate
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Sottocasa+Vimercate
+        note:
+          en: 18th-century Vimercate villa — now home to the MUST museum, with rotating exhibitions in the noble apartments upstairs.
+          it: Villa settecentesca di Vimercate — oggi sede del museo MUST, con mostre temporanee negli appartamenti nobili al piano superiore.
+        walking_from: vimercate
+      - name: Villa Trivulzio — Agrate Brianza
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Trivulzio+Agrate+Brianza
+        note:
+          en: Elegant 17th-century villa with French-style park — open for guided tours during Ville Aperte weekends.
+          it: Elegante villa seicentesca con parco alla francese — visite guidate durante i weekend di Ville Aperte.
+      - name: Villa Bagatti Valsecchi — Varedo
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Bagatti+Valsecchi+Varedo
+        note:
+          en: Eclectic 19th-century villa with Italian-style garden and orangery — open during festival weekends.
+          it: Villa eclettica ottocentesca con giardino all'italiana e aranciera — aperta nei weekend di festival.
+      - name: Villa Antona Traversi — Meda
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Antona+Traversi+Meda
+        note:
+          en: A former Benedictine monastery turned villa, with frescoes by Luini's school — rare openings to the public.
+          it: Antico monastero benedettino trasformato in villa, con affreschi della scuola di Luini — aperture rare al pubblico.
+      - name: Villa Casati Stampa — Muggiò
+        url: https://www.google.com/maps/search/?api=1&query=Villa+Casati+Stampa+Mugg%C3%B2
+        note:
+          en: 17th–18th-century villa with formal gardens — municipal venue, park free, interiors during festival.
+          it: Villa sei-settecentesca con giardini formali — sede comunale, parco libero, interni durante il festival.
+      - name: Palazzo Arese Borromeo — Cesano Maderno
+        url: https://www.google.com/maps/search/?api=1&query=Palazzo+Arese+Borromeo+Cesano+Maderno
+        note:
+          en: One of the great Baroque palaces of Lombardy — vast frescoed halls and an Italian garden. Open daily; small admission.
+          it: Uno dei grandi palazzi barocchi lombardi — saloni affrescati e giardino all'italiana. Aperto tutti i giorni; piccolo biglietto.
+      - name: Palazzo Terragni (ex Casa del Fascio) — Lissone
+        url: https://www.google.com/maps/search/?api=1&query=Palazzo+Terragni+Lissone
+        note:
+          en: 1939 Italian Rationalist landmark by Giuseppe Terragni — important piece of 20th-century architecture, exterior free to view.
+          it: Capolavoro razionalista del 1939 di Giuseppe Terragni — architettura novecentesca di rilievo, esterno visibile gratuitamente.
+      - name: Palazzo Rezzonico — Barlassina
+        url: https://www.google.com/maps/search/?api=1&query=Palazzo+Rezzonico+Barlassina
+        note:
+          en: Compact 17th-century palace, today a cultural venue — gardens open, interiors during Ville Aperte.
+          it: Compatto palazzo seicentesco, oggi sede culturale — giardini aperti, interni durante Ville Aperte.
+
+  - id: museums
+    title:
+      en: Museums & Art
+      it: Musei e arte
+    pois:
+      - name: MAC — Museo di Arte Contemporanea — Lissone
+        url: https://www.google.com/maps/search/?api=1&query=MAC+Museo+Arte+Contemporanea+Lissone
+        note:
+          en: Strong contemporary-art collection plus rotating exhibitions of post-war Italian painting and design.
+          it: Importante collezione di arte contemporanea con mostre temporanee di pittura e design italiano del dopoguerra.
+      - name: Rossini Art Site — Briosco
+        url: https://www.google.com/maps/search/?api=1&query=Rossini+Art+Site+Briosco
+        note:
+          en: 100-hectare open-air sculpture park with works by Anish Kapoor, Tony Cragg, Mimmo Paladino. Weekend visits by booking.
+          it: Parco di sculture all'aperto di 100 ettari con opere di Anish Kapoor, Tony Cragg, Mimmo Paladino. Visite nei weekend su prenotazione.
+      - name: Museo Civico "Carlo Verri" — Biassono
+        url: https://www.google.com/maps/search/?api=1&query=Museo+Civico+Carlo+Verri+Biassono
+        note:
+          en: Small civic museum focused on local archaeology and pre-Roman finds from the Parco di Monza area.
+          it: Piccolo museo civico dedicato all'archeologia locale e ai reperti pre-romani dell'area del Parco di Monza.
+      - name: Oratorio di Santa Maria di Mocchirolo — Lentate sul Seveso
+        url: https://www.google.com/maps/search/?api=1&query=Oratorio+Santa+Maria+Mocchirolo+Lentate
+        note:
+          en: Tiny 14th-century chapel with an exceptional fresco cycle (now copies — originals are at the Pinacoteca di Brera).
+          it: Piccola cappella trecentesca con un eccezionale ciclo di affreschi (oggi copie — gli originali sono alla Pinacoteca di Brera).
+
+  - id: day-trips-adda
+    title:
+      en: Day trips along the Adda
+      it: Gite lungo l'Adda
+    pois:
+      - name: Crespi d'Adda — UNESCO worker village
+        url: https://www.google.com/maps/search/?api=1&query=Crespi+d%27Adda
+        note:
+          en: 1878 cotton-mill village built as a complete urban experiment — workers' houses, school, church, cemetery. UNESCO-listed since 1995. Free to walk the streets; on-site museum is paid.
+          it: Villaggio operaio del 1878 nato come esperimento urbano completo — case, scuola, chiesa, cimitero. Patrimonio UNESCO dal 1995. Si può girare gratis per le vie; museo a pagamento.
+      - name: Castello Visconteo — Trezzo sull'Adda
+        url: https://www.google.com/maps/search/?api=1&query=Castello+Visconteo+Trezzo+sull%27Adda
+        note:
+          en: 14th-century Visconti castle on a rocky bend of the Adda — surrounding park free, tower + museum open Sundays/holidays afternoons.
+          it: Castello visconteo trecentesco su un'ansa rocciosa dell'Adda — parco circostante gratuito, torre e museo aperti la domenica e nei festivi al pomeriggio.
+      - name: Centrale Idroelettrica Taccani — Trezzo sull'Adda
+        url: https://www.google.com/maps/search/?api=1&query=Centrale+Taccani+Trezzo+sull%27Adda
+        note:
+          en: 1906 Liberty-style hydroelectric power station still in operation — one of Italy's most striking industrial-archaeology sites. Free visit.
+          it: Centrale idroelettrica del 1906 in stile liberty, tuttora attiva — uno dei siti di archeologia industriale più suggestivi d'Italia. Visita gratuita.
+      - name: Basilica di Agliate — Carate Brianza
+        url: https://www.google.com/maps/search/?api=1&query=Basilica+di+Agliate+Carate+Brianza
+        note:
+          en: 11th-century Romanesque basilica with a separate baptistery — one of the most important early-medieval monuments in Brianza.
+          it: Basilica romanica dell'XI secolo con battistero separato — uno dei monumenti altomedievali più importanti della Brianza.
 
   - id: shopping
     title:
