@@ -9,6 +9,11 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      regenerate_images:
+        description: "Force-regenerate every activity image (cost: ~$0.04 × N)"
+        type: boolean
+        default: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -63,6 +68,35 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Restore activity images cache
+        id: images-cache-restore
+        uses: actions/cache/restore@v5
+        with:
+          path: assets/images/activities
+          key: activity-images-v1-${{ github.run_id }}
+          restore-keys: |
+            activity-images-v1-
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v8
+      - name: Generate missing activity images
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "OPENROUTER_API_KEY not set — skipping image generation"
+            exit 0
+          fi
+          if [ "${{ inputs.regenerate_images }}" = "true" ]; then
+            ./scripts/imagen-activities.py --force
+          else
+            ./scripts/imagen-activities.py
+          fi
+      - name: Save activity images cache
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: assets/images/activities
+          key: ${{ steps.images-cache-restore.outputs.cache-primary-key }}
       - name: Build with Hugo
         run: |
           hugo \

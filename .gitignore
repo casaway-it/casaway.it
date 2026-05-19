@@ -39,6 +39,10 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
+# AI-generated activity cover images — regenerated locally with `just images`
+# or in CI from the YAML source of truth
+/assets/images/activities/
+
 ### macOS ###
 # General
 .DS_Store
