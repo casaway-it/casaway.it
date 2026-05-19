@@ -1,0 +1,305 @@
+intro:
+  en: Self-organized experiences around the Vimercate and Oreno apartments — riverside cycle paths, UNESCO villages, historic villas, and easy day trips to Bergamo, Lecco, Milan and Lake Como.
+  it: Esperienze "fai da te" intorno agli alloggi di Vimercate e Oreno — piste ciclabili lungo i fiumi, borghi UNESCO, ville storiche e gite facili a Bergamo, Lecco, Milano e sul Lago di Como.
+
+profiles:
+  - id: couples
+    label:
+      en: Couples
+      it: Coppie
+  - id: friends
+    label:
+      en: Friends
+      it: Amici
+  - id: families
+    label:
+      en: Families
+      it: Famiglie
+
+categories:
+  - id: bike-rides
+    title:
+      en: Bike rides
+      it: Itinerari in bici
+    activities:
+      - id: naviglio-martesana-cycle
+        title:
+          en: Naviglio Martesana cycle — Milan to Trezzo sull'Adda
+          it: Pista ciclabile del Naviglio Martesana — da Milano a Trezzo sull'Adda
+        kind: bike
+        profiles: [couples, friends, families]
+        duration:
+          en: 32 km, flat, half-day to full day
+          it: 32 km, pianeggiante, da mezza giornata a giornata intera
+        summary:
+          en: Flat tree-lined towpath along the 15th-century Leonardo-designed canal, all the way from Cassina de' Pomm in Milan to the Adda river at Trezzo. Family-friendly, well-marked, picnic tables along the route.
+          it: Alzaia pianeggiante alberata lungo il Naviglio quattrocentesco progettato da Leonardo, da Cassina de' Pomm a Milano fino all'Adda a Trezzo. Adatto alle famiglie, ben segnalato, aree pic-nic lungo il percorso.
+        source:
+          label:
+            en: Route on Bicitalia
+            it: Itinerario su Bicitalia
+          url: https://www.bicitalia.org/it/percorsi/117-pista-ciclabile-del-naviglio-della-martesana
+      - id: parco-monza-cycle
+        title:
+          en: Parco di Monza cycle loop
+          it: Anello in bici nel Parco di Monza
+        kind: bike
+        profiles: [couples, friends, families]
+        duration:
+          en: ~1h30 · 16 mi · easy
+          it: ~1h30 · 26 km · facile
+        summary:
+          en: Easy loop through one of Europe's largest enclosed parks — past the Villa Reale, around the F1 Autodromo perimeter, and back along the Lambro. GPX available.
+          it: Anello facile in uno dei parchi recintati più grandi d'Europa — passa accanto alla Villa Reale, fa il giro dell'Autodromo F1 e torna lungo il Lambro. GPX disponibile.
+        source:
+          label:
+            en: Route with GPX on turismo.monza.it
+            it: Itinerario con GPX su turismo.monza.it
+          url: https://turismo.monza.it/en/tours/monza-and-its-park-25959
+
+  - id: walks
+    title:
+      en: Walking loops
+      it: Anelli a piedi
+    activities:
+      - id: crespi-trezzo-loop
+        title:
+          en: Crespi d'Adda + Trezzo Castello loop
+          it: Anello di Crespi d'Adda e Castello di Trezzo
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~2h30 · 7.5 km · easy · 115 m climb
+          it: ~2h30 · 7,5 km · facile · 115 m disl.
+        summary:
+          en: A short loop linking three of the strongest sights east of Vimercate — the Visconti castle of Trezzo, the still-operating Liberty-style Taccani power station (free to visit), and the UNESCO-listed Crespi d'Adda cotton-mill village. Walk the alzaia along the Adda between them.
+          it: Anello breve che collega tre dei luoghi più forti a est di Vimercate — il castello visconteo di Trezzo, la centrale Taccani in stile liberty ancora in funzione (visita gratuita) e il villaggio operaio UNESCO di Crespi d'Adda. Si cammina sull'alzaia dell'Adda tra l'uno e l'altro.
+        stops:
+          - name: Castello Visconteo di Trezzo
+          - name: Centrale Idroelettrica Taccani
+          - name: Crespi d'Adda
+        source:
+          label:
+            en: Route on Parco Adda Nord
+            it: Itinerario su Parco Adda Nord
+          url: https://turismo.parcoaddanord.it/itinerari/tra-trezzo-sulladda-e-crespi-dadda/
+      - id: adda-greenway-walk
+        title:
+          en: Adda greenway — Trezzo riverside walk
+          it: Lungoadda — passeggiata da Trezzo
+        kind: walk
+        profiles: [couples, friends]
+        duration:
+          en: ~2h · flexible distance
+          it: ~2h · distanza flessibile
+        summary:
+          en: Walk the Adda's alzaia north or south of Trezzo — quiet water, woodland, iron footbridges, the occasional 19th-century industrial relic. Turn back whenever you've had enough.
+          it: Si cammina sull'alzaia dell'Adda a nord o a sud di Trezzo — acqua tranquilla, boschi, passerelle in ferro, qualche reperto industriale ottocentesco. Si torna indietro quando si vuole.
+        source:
+          label:
+            en: Trails on Parco Adda Nord
+            it: Sentieri su Parco Adda Nord
+          url: https://turismo.parcoaddanord.it/
+      - id: parco-monza-walk
+        title:
+          en: Parco di Monza free walk
+          it: Passeggiata libera nel Parco di Monza
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: 1–3h · flat · free entry
+          it: 1–3h · pianeggiante · ingresso gratuito
+        summary:
+          en: One of Europe's largest enclosed parks — wide gravel avenues lined with plane and oak trees, the Villa Reale gardens, the Lambro river, fountains and cascine. Stroller- and dog-friendly.
+          it: Uno dei parchi recintati più grandi d'Europa — viali ghiaiosi tra platani e querce, i giardini della Villa Reale, il Lambro, fontane e cascine. Adatto a passeggini e cani.
+
+  - id: drives
+    title:
+      en: Self-drive routes
+      it: Itinerari in auto
+    activities:
+      - id: brianza-villas-drive
+        title:
+          en: Brianza villas drive — Lombard "villas of delight"
+          it: Tour delle ville di Brianza — le "ville di delizia" lombarde
+        kind: drive
+        profiles: [couples, friends]
+        duration:
+          en: Half day to full day
+          it: Da mezza a una giornata intera
+        summary:
+          en: A loop through the most photogenic Brianza villas — Arcore, Desio, Cesano Maderno, Varedo. Most are visible from outside year-round; interiors open during Ville Aperte weekends in May and September.
+          it: Anello tra le ville più fotogeniche della Brianza — Arcore, Desio, Cesano Maderno, Varedo. Gli esterni sono visibili tutto l'anno; gli interni durante i weekend di Ville Aperte (maggio e settembre).
+        stops:
+          - name: Villa Borromeo d'Adda (Arcore)
+          - name: Villa Cusani Traversi Tittoni (Desio)
+          - name: Palazzo Arese Borromeo (Cesano Maderno)
+          - name: Villa Bagatti Valsecchi (Varedo)
+        source:
+          label:
+            en: Villas index on turismo.monza.it
+            it: Indice delle ville su turismo.monza.it
+          url: https://turismo.monza.it/en/brianza-25095
+      - id: romanesque-brianza-drive
+        title:
+          en: Romanesque Brianza — three early-medieval stops
+          it: Brianza romanica — tre tappe altomedievali
+        kind: drive
+        profiles: [couples]
+        duration:
+          en: Half day
+          it: Mezza giornata
+        summary:
+          en: A quiet drive through three of Brianza's most important Romanesque sites — Agliate's 11th-century basilica with separate baptistery, the tiny frescoed oratory of Mocchirolo, and Concorezzo's Romanesque church of Sant'Eugenio.
+          it: Un giro tranquillo tra tre dei siti romanici più importanti della Brianza — la basilica dell'XI secolo di Agliate con battistero separato, l'oratorio affrescato di Mocchirolo e la chiesa romanica di Sant'Eugenio a Concorezzo.
+        stops:
+          - name: Basilica di Agliate (Carate Brianza)
+          - name: Oratorio di Santa Maria di Mocchirolo (Lentate sul Seveso)
+          - name: Chiesa di Sant'Eugenio (Concorezzo)
+
+  - id: town-walks
+    title:
+      en: Town strolls
+      it: Passeggiate in città
+    activities:
+      - id: monza-historic-center
+        title:
+          en: Monza historic center
+          it: Centro storico di Monza
+        kind: walk
+        profiles: [couples, friends, families]
+        duration:
+          en: ~2h
+          it: ~2h
+        summary:
+          en: Walk Monza's medieval core — the Duomo (housing the Iron Crown of Italy), the Arengario (13th-century town hall), the Ponte dei Leoni over the Lambro, and Rinascente's Liberty department store. Pair with the adjacent Villa Reale gardens.
+          it: Si percorre il cuore medievale di Monza — il Duomo (con la Corona Ferrea), l'Arengario (palazzo comunale del Duecento), il Ponte dei Leoni sul Lambro e la Rinascente in stile liberty. Si abbina ai vicini giardini della Villa Reale.
+        source:
+          label:
+            en: "Monza: The History Route on turismo.monza.it"
+            it: "Monza: Percorso della Storia su turismo.monza.it"
+          url: https://turismo.monza.it/en/tours/percorso-della-storia-24959
+
+  - id: day-trips
+    title:
+      en: Day trips
+      it: Gite di un giorno
+    activities:
+      - id: bergamo-citta-alta
+        title:
+          en: Bergamo Città Alta day trip
+          it: Gita a Bergamo Città Alta
+        kind: mixed
+        profiles: [couples, friends]
+        duration:
+          en: Full day · ~1h drive or train + funicular
+          it: Giornata intera · ~1h in auto o in treno + funicolare
+        summary:
+          en: Walk the medieval upper town reached by funicular — Piazza Vecchia, the Cappella Colleoni, the Venetian walls (UNESCO-listed). Easy lunch in one of the osterie inside the walls, then descend on foot through the gardens.
+          it: Si visita la città alta medievale raggiungibile in funicolare — Piazza Vecchia, la Cappella Colleoni, le mura venete (Patrimonio UNESCO). Pranzo facile in una delle osterie dentro le mura, poi discesa a piedi nei giardini.
+      - id: lecco-lakefront
+        title:
+          en: Lecco lakefront day trip
+          it: Gita sul lungolago di Lecco
+        kind: mixed
+        profiles: [couples, friends, families]
+        duration:
+          en: Full day · ~45 min drive or train
+          it: Giornata intera · ~45 min in auto o in treno
+        summary:
+          en: The southern arm of Lake Como, ringed by steep peaks. Stroll the Manzoni lakefront promenade, eat lakefish at one of the trattorie, optionally take a short boat trip toward Varenna or Bellagio.
+          it: Il ramo meridionale del Lago di Como, circondato da montagne ripide. Si passeggia sul lungolago Manzoni, si mangia pesce di lago in una trattoria, eventualmente breve gita in battello verso Varenna o Bellagio.
+      - id: milan-day-trip
+        title:
+          en: Milan day trip — Duomo, Brera, Navigli
+          it: Gita a Milano — Duomo, Brera, Navigli
+        kind: mixed
+        profiles: [couples, friends]
+        duration:
+          en: Full day · ~40 min by train (Linea S7 from Vimercate area)
+          it: Giornata intera · ~40 min in treno (Linea S7 dalla zona di Vimercate)
+        summary:
+          en: A self-organized loop through the centre — Duomo and rooftop, Galleria, Sforza castle, Brera district for art and aperitivo, finishing on the Navigli at sunset.
+          it: Un giro autonomo nel centro — Duomo e terrazze, Galleria, Castello Sforzesco, Brera per l'arte e l'aperitivo, finale sui Navigli al tramonto.
+      - id: como-lakefront
+        title:
+          en: Como lakefront day trip
+          it: Gita sul lungolago di Como
+        kind: mixed
+        profiles: [couples, friends]
+        duration:
+          en: Full day · ~1h drive
+          it: Giornata intera · ~1h in auto
+        summary:
+          en: The grand neoclassical Como waterfront, the Duomo, Brunate funicular for a view over the lake, then a boat to Cernobbio or Bellagio. Pairs well with a relaxed lakeside lunch.
+          it: Il maestoso lungolago neoclassico di Como, il Duomo, la funicolare per Brunate per la vista sul lago, poi battello fino a Cernobbio o Bellagio. Si abbina a un pranzo tranquillo sul lago.
+
+  - id: seasonal
+    title:
+      en: Seasonal stops
+      it: Soste stagionali
+    activities:
+      - id: ville-aperte-festival
+        title:
+          en: Ville Aperte in Brianza festival weekends
+          it: Weekend di Ville Aperte in Brianza
+        kind: seasonal
+        profiles: [couples, friends]
+        season:
+          en: Spring weekends in May · Autumn weekends late September / early October
+          it: Weekend di maggio · weekend tra fine settembre e inizio ottobre
+        summary:
+          en: An annual program where ~50 historic villas, palaces and gardens across Brianza, Milan, Lecco and Como provinces open for free or low-cost guided tours. Each edition publishes the full list of dates and bookable visits.
+          it: Programma annuale in cui circa 50 ville storiche, palazzi e giardini delle province di Monza-Brianza, Milano, Lecco e Como aprono per visite gratuite o a basso costo. Ogni edizione pubblica l'elenco completo di date e visite prenotabili.
+        source:
+          label:
+            en: Program on villeaperte.info
+            it: Programma su villeaperte.info
+          url: https://www.villeaperte.info/
+      - id: monza-f1-weekend
+        title:
+          en: Italian F1 Grand Prix weekend
+          it: Weekend del Gran Premio d'Italia di F1
+        kind: seasonal
+        profiles: [friends]
+        season:
+          en: Early September
+          it: Inizio settembre
+        summary:
+          en: The Italian Grand Prix at the Autodromo Nazionale Monza — one of the oldest circuits in the world. Tickets sell out months in advance; even without one, the town fills with fans and the atmosphere is unmistakable.
+          it: Il Gran Premio d'Italia all'Autodromo Nazionale Monza — uno dei circuiti più antichi al mondo. I biglietti si esauriscono con mesi di anticipo; anche senza, la città si riempie di tifosi e l'atmosfera è inconfondibile.
+        source:
+          label:
+            en: Tickets and program
+            it: Biglietti e programma
+          url: https://www.monzanet.it/en/
+      - id: brianza-sagre-autumn
+        title:
+          en: Autumn sagre in Brianza villages
+          it: Sagre autunnali nei paesi della Brianza
+        kind: seasonal
+        profiles: [couples, friends, families]
+        season:
+          en: September through November
+          it: Da settembre a novembre
+        summary:
+          en: Most Brianza villages run a sagra in early autumn — polenta, cassoeula, mostarda, chestnuts, local DOC reds. Each comune lists dates on its website; the Pro Loco network coordinates a regional calendar.
+          it: Quasi ogni paese della Brianza ha la propria sagra a inizio autunno — polenta, cassoeula, mostarda, castagne, DOC del territorio. Le date sono sui siti dei Comuni; la rete delle Pro Loco coordina un calendario regionale.
+        source:
+          label:
+            en: Regional sagre calendar
+            it: Calendario regionale delle sagre
+          url: https://www.prolocolombardia.it/eventi/
+      - id: vimercate-carnevale
+        title:
+          en: Carnevale Ambrosiano in Vimercate
+          it: Carnevale Ambrosiano a Vimercate
+        kind: seasonal
+        profiles: [couples, friends, families]
+        season:
+          en: February (Ambrosian rite — week after the rest of Italy)
+          it: Febbraio (rito ambrosiano — una settimana dopo il resto d'Italia)
+        summary:
+          en: Vimercate and the surrounding Brianza towns celebrate Carnival under the Ambrosian rite, which runs four days later than the Roman calendar — so you get parades, masks, frittelle and chiacchiere when the rest of Italy has already cleaned up.
+          it: Vimercate e i paesi della Brianza festeggiano il Carnevale secondo il rito ambrosiano, che dura fino al sabato successivo — sfilate, maschere, frittelle e chiacchiere quando il resto d'Italia ha già messo via tutto.
+        walking_from: vimercate

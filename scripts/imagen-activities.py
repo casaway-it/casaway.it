@@ -34,7 +34,10 @@ from pathlib import Path
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
-DATA_FILE = REPO / "data" / "activities" / "langhe.yaml"
+DATA_FILES = [
+    REPO / "data" / "activities" / "langhe.yaml",
+    REPO / "data" / "activities" / "brianza.yaml",
+]
 OUT_DIR = REPO / "assets" / "images" / "activities"
 
 STYLE = (
@@ -162,15 +165,99 @@ SCENES: dict[str, str] = {
         "narrow country road winding through, no vehicles, no people, soft "
         "diffused light."
     ),
+    # ── Brianza activities ──────────────────────────────────────────────
+    "naviglio-martesana-cycle": (
+        "a flat tree-lined canal towpath in the Lombard plain — the Naviglio "
+        "Martesana water mirror-still alongside, leafy trees overhanging the "
+        "path, the canal extending into the distance, soft morning light."
+    ),
+    "parco-monza-cycle": (
+        "a wide gravel cycling avenue inside a grand royal park — tall plane "
+        "trees flanking the path, the cream facade of Villa Reale visible "
+        "through the trees at the far end, dappled morning light."
+    ),
+    "crespi-trezzo-loop": (
+        "the UNESCO worker village of Crespi d'Adda — orderly rows of late-"
+        "19th-century brick workers' houses with red-tile roofs lining a "
+        "quiet straight street, the Adda river visible beyond, soft "
+        "afternoon light."
+    ),
+    "adda-greenway-walk": (
+        "a quiet riverside walking path along the Adda river — calm green "
+        "water on one side, woodland and tall reeds on the other, an iron "
+        "footbridge crossing in the middle distance."
+    ),
+    "parco-monza-walk": (
+        "a sweeping royal park lawn with mature oak and plane trees, a small "
+        "lake reflecting the canopy, a stone path winding through, late "
+        "afternoon golden light."
+    ),
+    "brianza-villas-drive": (
+        "an 18th-century Lombard noble villa with formal Italian gardens — "
+        "symmetrical box hedges, gravel walks, a central fountain, the "
+        "cream-coloured villa facade behind."
+    ),
+    "romanesque-brianza-drive": (
+        "a small Romanesque stone basilica with a slender bell tower set in "
+        "flat farmland — surrounding cypress trees, soft afternoon light, a "
+        "single country lane leading up to it."
+    ),
+    "monza-historic-center": (
+        "the medieval centre of Monza — the iron-clad bell tower of the "
+        "Duomo seen over red-tiled rooftops, narrow cobbled lanes, a stone "
+        "bridge over the Lambro river in the foreground."
+    ),
+    "bergamo-citta-alta": (
+        "the medieval upper town of Bergamo perched on a hill — terracotta "
+        "rooftops, defensive Venetian walls, a slim cathedral bell tower, "
+        "the Lombard plain stretching out below."
+    ),
+    "lecco-lakefront": (
+        "the lakefront of Lecco on Lake Como — calm blue water reflecting "
+        "steep mountains on the far shore, pastel-coloured townhouses lining "
+        "the promenade, small fishing boats moored at quay."
+    ),
+    "milan-day-trip": (
+        "the spires of the Duomo of Milan against a soft cream sky, the "
+        "Galleria Vittorio Emanuele facade glimpsed in the foreground, the "
+        "central piazza seen from a high angle."
+    ),
+    "como-lakefront": (
+        "the town of Como at the foot of Lake Como — neoclassical waterfront "
+        "buildings, a single steamer at the dock, steep wooded mountains "
+        "rising on both sides, soft morning haze on the lake."
+    ),
+    "ville-aperte-festival": (
+        "an open Lombard noble villa during a heritage festival — its grand "
+        "front gate ajar, a gravel courtyard inside, late-spring trees in "
+        "bloom, soft light through tall windows."
+    ),
+    "monza-f1-weekend": (
+        "the iconic curved banked corner of an old motor-racing circuit — "
+        "empty tarmac curving away into the tall trees of a park, no cars, "
+        "soft morning light."
+    ),
+    "brianza-sagre-autumn": (
+        "an autumn village fair in a small Lombard piazza — wooden trestle "
+        "tables under string lights, copper pots of polenta on a wood "
+        "stove, chestnuts roasting on a brazier, low ochre buildings, late "
+        "afternoon."
+    ),
+    "vimercate-carnevale": (
+        "a Lombard town piazza during carnival — drifting confetti and "
+        "streamers in mid-air, brightly painted carnival floats in soft "
+        "focus, low pastel buildings, daylight."
+    ),
 }
 
 
 def load_activity_ids() -> list[str]:
-    data = yaml.safe_load(DATA_FILE.read_text())
     ids: list[str] = []
-    for cat in data.get("categories", []):
-        for activity in cat.get("activities", []):
-            ids.append(activity["id"])
+    for path in DATA_FILES:
+        data = yaml.safe_load(path.read_text())
+        for cat in data.get("categories", []):
+            for activity in cat.get("activities", []):
+                ids.append(activity["id"])
     return ids
 
 
