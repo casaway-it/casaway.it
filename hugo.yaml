@@ -107,7 +107,7 @@ languages:
           url: /it
     weight: 1
     title: "Casaway. Your Home, Away!"
-    languageName: English
+    label: English
     disclaimer: Lodgings managed by individuals as authorized by the local regulations.
     params:
       name: Casaway
@@ -227,7 +227,7 @@ languages:
           url: /it
     weight: 2
     title: Casaway. Your Home, Away!
-    languageName: Italiano
+    label: Italiano
     disclaimer: Alloggi gestiti da persone fisiche in modalità non imporenditoriale, registrati presso i rispettivi registri comunali, provinciali e regionali.
     params:
       name: Casaway

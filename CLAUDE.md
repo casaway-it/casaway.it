@@ -35,7 +35,7 @@ The **hero carousel** pulls the first 3 images from every lodging (or child of a
 
 | Concern | Tool |
 |---------|------|
-| SSG | Hugo extended — CI pins **v0.147.1** (`.github/workflows/hugo.yml`) |
+| SSG | Hugo extended — CI pins **v0.161.1** (`.github/workflows/hugo.yml`) |
 | CSS framework | Bootstrap 5.3 (CDN) |
 | Icons | Font Awesome 6.4, Bootstrap Icons 1.10 |
 | Fonts | Google Fonts: Lato + Spinnaker |

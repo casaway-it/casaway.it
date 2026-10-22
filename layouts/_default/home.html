@@ -173,11 +173,11 @@
             <ul>
 
               {{ if eq $.Site.Language.Lang "en" }}
-                {{ range $.Site.Data.en.amenities.services }}
+                {{ range hugo.Data.en.amenities.services }}
                   {{ partial "service" . }}
                 {{ end }}
               {{ else }}
-                {{ range $.Site.Data.it.amenities.services }}
+                {{ range hugo.Data.it.amenities.services }}
                   {{ partial "service" . }}
                 {{ end }}
               {{ end }}
@@ -214,11 +214,11 @@
             <div class="slick-testimonial-slider slider">
 
               {{ if eq $.Site.Language.Lang "en" }}
-                {{ range $.Site.Data.en.reviews.list }}
+                {{ range hugo.Data.en.reviews.list }}
                   {{ partial "review" . }}
                 {{ end }}
               {{ else }}
-                {{ range $.Site.Data.it.reviews.list }}
+                {{ range hugo.Data.it.reviews.list }}
                   {{ partial "review" . }}
                 {{ end }}
               {{ end }}
