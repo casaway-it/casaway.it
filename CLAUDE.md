@@ -114,6 +114,7 @@ aliases:      # Hugo aliases for short URLs (e.g. /apt2, /apt703, /nocciolina)
   5. Add the property to both `languages.en.menu` and `languages.it.menu` in `hugo.yaml` (both `main` and `footer_lodgings`).
 - Data-driven blocks: add amenities/reviews to BOTH `data/en/` and `data/it/`.
 - i18n: add new `{{ T "key" }}` strings to BOTH `i18n/en.yaml` and `i18n/it.yaml`.
+- Things-to-Do cover images: `assets/images/activities/<id>.webp`, one per activity id in `data/activities/*.yaml`, **committed**. New activity → add a `SCENES` entry in `scripts/imagen-activities.py`, run `just images` (needs `OPENROUTER_API_KEY`; only missing ids are generated), commit the WebP. CI never generates images.
 
 ## Deployment
 

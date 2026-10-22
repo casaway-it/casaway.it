@@ -34,7 +34,7 @@ lint:
     actionlint .github/workflows
     zizmor .github/workflows
 
-# Generate missing Things-to-Do cover images via Google Imagen
+# Generate missing Things-to-Do cover images (needs OPENROUTER_API_KEY); commit the output
 # Args: ARGS — passed to scripts/imagen-activities.py (e.g. just images --only id1,id2)
 images *ARGS:
     ./scripts/imagen-activities.py {{ARGS}}
