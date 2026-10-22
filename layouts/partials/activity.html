@@ -6,8 +6,9 @@
 {{ $profileBadge := dict "couples" "thmv-profile-couples" "friends" "thmv-profile-friends" "families" "thmv-profile-families" }}
 <div class="col-md-6 col-lg-6 mb-4">
   <div class="card h-100 thmv-activity-card">
-    {{ with resources.Get (printf "images/activities/%s.png" $activity.id) }}
-      {{ $img := .Resize "800x webp q85" }}
+    {{ with resources.Get (printf "images/activities/%s.webp" $activity.id) }}
+      {{ $img := . }}
+      {{ if gt .Width 800 }}{{ $img = .Resize "800x webp q85" }}{{ end }}
       <img src="{{ $img.RelPermalink }}" class="card-img-top thmv-activity-img" alt="" loading="lazy" />
     {{ end }}
     <div class="card-body">

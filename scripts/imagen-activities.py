@@ -1,13 +1,14 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["google-genai>=2.4.0", "openai>=2.0.0", "PyYAML>=6.0"]
+# dependencies = ["google-genai>=2.4.0", "openai>=2.0.0", "Pillow>=10.0", "PyYAML>=6.0"]
 # ///
-"""Generate cover images for every Things-to-Do activity in Langhe.
+"""Generate cover images for every Things-to-Do activity (Langhe + Brianza).
 
-Reads data/activities/langhe.yaml and writes one PNG per activity to
-assets/images/activities/<id>.png. Skips activities whose image already
-exists unless --force is given. Same image shared between EN and IT.
+Reads the activity YAML files and writes one WebP per activity to
+assets/images/activities/<id>.webp. Those files are committed: CI never
+generates images. Skips activities whose image already exists unless
+--force is given. Same image shared between EN and IT.
 
 Two providers supported:
     --provider openrouter  (default) — needs OPENROUTER_API_KEY
@@ -311,6 +312,14 @@ def generate_openrouter(prompt: str, model: str, out_path: Path) -> None:
     out_path.write_bytes(base64.b64decode(b64))
 
 
+def to_webp(src: Path, dst: Path) -> None:
+    from PIL import Image
+
+    with Image.open(src) as im:
+        im.convert("RGB").save(dst, "WEBP", quality=90, method=6)
+    src.unlink()
+
+
 PROVIDER_DEFAULTS = {
     "openrouter": ("google/gemini-2.5-flash-image", "OPENROUTER_API_KEY"),
     "google": ("imagen-4.0-ultra-generate-001", "GEMINI_API_KEY"),
@@ -365,7 +374,7 @@ def main() -> int:
         return 1
 
     todo = [
-        i for i in selected if args.force or not (OUT_DIR / f"{i}.png").exists()
+        i for i in selected if args.force or not (OUT_DIR / f"{i}.webp").exists()
     ]
     if not todo:
         print("Nothing to generate (all cached).")
@@ -374,10 +383,12 @@ def main() -> int:
     generate_fn = PROVIDER_FNS[args.provider]
     print(f"Generating {len(todo)} image(s) with {args.provider}:{model}…")
     for i, activity_id in enumerate(todo, 1):
-        out_path = OUT_DIR / f"{activity_id}.png"
+        out_path = OUT_DIR / f"{activity_id}.webp"
         print(f"  [{i}/{len(todo)}] {activity_id} -> {out_path}")
         prompt = build_prompt(activity_id)
-        generate_fn(prompt, model, out_path)
+        png_path = out_path.with_suffix(".png")
+        generate_fn(prompt, model, png_path)
+        to_webp(png_path, out_path)
         if i < len(todo):
             time.sleep(args.sleep)
 
