@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $lang := .Site.Language.Lang }}
 {{ $area := .Params.area }}
-{{ $data := index .Site.Data.activities $area }}
+{{ $data := index hugo.Data.activities $area }}
 <main class="thmv-home-2 thmv-activities">
 
   <section class="thmv-floor-sec thmv-activities-header">
