@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # GitHub Actions only. HUGO_VERSION is owned by Renovate (see renovate.json).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: Europe/Rome
+    groups:
+      github-actions:
+        patterns: ["*"]
+    open-pull-requests-limit: 5
